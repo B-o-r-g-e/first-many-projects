@@ -7,3 +7,7 @@ export { default as Connect } from './connect/Connect.jsx';
 export { default as DoingBoard } from './Doing-board/DoingBoard.jsx';
 export { default as DoingSecond } from './doing-second/DoingSecond.jsx';
 export { default as Family } from './family/Family.jsx';
+export { default as Footer } from './footer/Footer.jsx';
+export { default as NavBar } from './navbar/NavBar.jsx';
+export { default as NewsArticle } from './news-article/NewsArticle.jsx';
+export { default as Simple } from './simple/Simple.jsx';
