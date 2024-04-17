@@ -1,6 +1,6 @@
 import React from 'react';
 import './library.css'
-import {Navbar} from "../../Components/index.js";
+// import {Navbar} from "../../Components/index.js";
 
 const Library = () => (
     <div className="library" id={'library'}>
