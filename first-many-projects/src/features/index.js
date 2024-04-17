@@ -12,3 +12,6 @@ export { default as NavBar } from './navbar/NavBar.jsx';
 export { default as NewsArticle } from './news-article/NewsArticle.jsx';
 export { default as Simple } from './simple/Simple.jsx';
 export { default as Tech } from './technologycal/Tech.jsx';
+export { default as Tool } from './tool/Tool.jsx';
+export { default as TrialOffer } from './trial-offer/TrialOffer.jsx';
+export { default as Working } from './working/Working.jsx';

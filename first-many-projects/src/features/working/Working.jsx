@@ -1,12 +1,12 @@
 import React from 'react';
-import './library.css'
+import './working.css'
 // import {Navbar} from "../../Components/index.js";
 
-const Library = () => (
-    <div className="library">
+const Working = () => (
+    <div className="working-container">
         Good
         <p style={{color: 'white'}}>here is library</p>
     </div>
 )
 
-export default Library
+export default Working

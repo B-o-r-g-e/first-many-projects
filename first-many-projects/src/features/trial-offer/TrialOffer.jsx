@@ -1,12 +1,12 @@
 import React from 'react';
-import './library.css'
+import './trial-offer.css'
 // import {Navbar} from "../../Components/index.js";
 
-const Library = () => (
-    <div className="library">
+const TrialOffer = () => (
+    <div className="trial-offer">
         Good
         <p style={{color: 'white'}}>here is library</p>
     </div>
 )
 
-export default Library
+export default TrialOffer
