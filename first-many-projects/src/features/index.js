@@ -4,4 +4,6 @@ export { default as BottomBoard } from './bottom-board/BottomBoard.jsx';
 export { default as BrandBusiness } from './brand-business/BrandBusiness.jsx';
 export { default as Brands } from './brands/Brands.jsx';
 export { default as Connect } from './connect/Connect.jsx';
-export { default as DoingBoard } from './doing-second/DoingSecond.jsx';
+export { default as DoingBoard } from './Doing-board/DoingBoard.jsx';
+export { default as DoingSecond } from './doing-second/DoingSecond.jsx';
+export { default as Family } from './family/Family.jsx';
