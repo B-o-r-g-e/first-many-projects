@@ -1,7 +1,7 @@
 import React from "react";
 
 import {Route, Routes} from "react-router-dom";
-import {Library} from "./misc/index.js";
+import {Library} from "./features/index.js";
 import Home from "./home/Home.jsx";
 
 

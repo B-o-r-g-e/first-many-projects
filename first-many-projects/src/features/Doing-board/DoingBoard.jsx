@@ -3,7 +3,7 @@ import './library.css'
 // import {Navbar} from "../../Components/index.js";
 
 const Library = () => (
-    <div className="library" id={'library'}>
+    <div className="library">
         Good
         <p style={{color: 'white'}}>here is library</p>
     </div>

@@ -18,7 +18,7 @@ const whatGPT3 = () => {
                     The possibilities are beyond your imagination
                 </h1>
                 <Link to="/library"  onClick={handleClick}>
-                    <p>Explore The Library</p>
+                    <p>Explore More Features</p>
                 </Link>
             </div>
             <div className="gpt3__whatgpt3-container">
