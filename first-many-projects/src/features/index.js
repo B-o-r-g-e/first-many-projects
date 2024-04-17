@@ -11,3 +11,4 @@ export { default as Footer } from './footer/Footer.jsx';
 export { default as NavBar } from './navbar/NavBar.jsx';
 export { default as NewsArticle } from './news-article/NewsArticle.jsx';
 export { default as Simple } from './simple/Simple.jsx';
+export { default as Tech } from './technologycal/Tech.jsx';
