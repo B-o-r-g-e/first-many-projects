@@ -8,7 +8,7 @@ import twitter from "../../assets/Twiter.png"
 import add from "../../assets/add.png"
 
 const BottomBoard = () => (
-    <div className="BottomBoard-container common">
+    <div className="BottomBoard-container">
         <div className="BottomBoard">
             <div className="BottomBoard-top">
                 <div className="BottomBoard-top-left">
