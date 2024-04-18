@@ -3,7 +3,7 @@ import './bottom-board.css'
 // import {Navbar} from "../../Components/index.js";
 
 const BottomBoard = () => (
-    <div className="BottomBoard">
+    <div className="BottomBoard common">
 
     </div>
 )
