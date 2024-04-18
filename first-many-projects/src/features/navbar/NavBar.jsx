@@ -4,7 +4,7 @@ import logo from "../../assets/logo.svg";
 import cart from "../../assets/cart.svg"
 
 const NavBar = () => (
-    <nav className="navbar navbar-container">
+    <nav className="navbar navbar-container common">
         <div className="gpt3__navbar-links__logo">
             <img src={logo} alt="logo"/>
         </div>
@@ -20,8 +20,8 @@ const NavBar = () => (
             <div className="cart-container">
                 <img src={cart} alt="cart"/>
             </div>
-            <div className="signIn-container">
-                <div className="signIn">Sign In</div>
+            <div className="sign-container">
+                <div className="sign">Sign In</div>
             </div>
         </div>
     </nav>
