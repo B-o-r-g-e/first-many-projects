@@ -1,11 +1,9 @@
 import React from 'react';
 import './library.css'
-// import {Navbar} from "../../Components/index.js";
-
+import { Board, Tool, Library, TrialOffer, Working, Family, Simple, Footer, Brands, BottomBoard, DoingBoard, NewsArticle, Connect, DoingSecond, BrandBusiness, Tech, NavBar} from '../index.js'
 const Library = () => (
     <div className="library">
-        Good
-        <p style={{color: 'white'}}>here is library</p>
+        <Board />
     </div>
 )
 
