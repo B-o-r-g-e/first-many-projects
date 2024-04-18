@@ -6,3 +6,12 @@
     padding: 2rem 4rem;
     color: white;
 }
+
+.navbar-nav {
+    display: flex;
+    gap: 10px;
+}
+
+ul li {
+    list-style: none;
+}
