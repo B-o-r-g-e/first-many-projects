@@ -4,8 +4,7 @@ import './bottom-board.css'
 
 const BottomBoard = () => (
     <div className="BottomBoard">
-        Good
-        <p style={{color: 'white'}}>here is library</p>
+
     </div>
 )
 
