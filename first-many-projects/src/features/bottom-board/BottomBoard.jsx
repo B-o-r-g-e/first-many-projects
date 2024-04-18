@@ -27,7 +27,11 @@ const BottomBoard = () => (
                     </div>
                 </div>
 
-                <div className="BottomBoard-top-middle"></div>
+                <div className="BottomBoard-top-middle">
+                    <div className="BottomBoard-top-right-today mid">Stories</div>
+                    <div className="BottomBoard-top-right-today mid">Post</div>
+                    <div className="BottomBoard-top-right-today mid">Blog</div>
+                </div>
                 <div className="BottomBoard-top-right"></div>
             </div>
 
