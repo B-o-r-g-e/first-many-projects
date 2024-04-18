@@ -4,6 +4,7 @@
     width: 100vw;
     align-items: center;
     color: white;
+    box-sizing: border-box;
 }
 
 .navbar-nav {

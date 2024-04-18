@@ -1,5 +1,9 @@
-.BottomBoard {
+.BottomBoard-container {
     width: 70vw;
-    height: 551px;
+    height: 60vh;
     background-color: white;
+    position: absolute;
+    bottom: -120px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
