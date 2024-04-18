@@ -5,7 +5,9 @@ import board1 from "../../assets/board1.png"
 
 const Board = () => (
     <div className="Board common">
+        <div className="Board-container">
 
+        </div>
     </div>
 )
 

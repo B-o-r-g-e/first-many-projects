@@ -1,0 +1,9 @@
+.Board-container {
+    background-image: url("../../assets/board1.png");
+    width: 100vw;
+    height: 100vh;
+    /*background-size: auto 100%; !* Auto width, 100% height *!*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
