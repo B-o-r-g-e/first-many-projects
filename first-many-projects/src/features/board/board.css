@@ -35,6 +35,18 @@
     text-align: center;
 }
 
+.Board-container button {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #2F2F2F;
+    padding: 16px 40px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1050px) {
     .Board-container h1 {
         width: 30rem;
