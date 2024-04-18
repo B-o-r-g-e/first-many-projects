@@ -13,3 +13,12 @@
     background-size: cover;
     padding: 2rem 4rem;
 }
+
+.Board-container h1 {
+    width: 40rem;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 66px;
+    text-align: center;
+
+}
