@@ -5,8 +5,10 @@ import { Board, Tool, TrialOffer, Working, Family, Simple, Footer, Brands, Botto
 const Library = () => (
     <div className="library">
         <NavBar />
-        <Board />
-        <BottomBoard />
+        <div className="boards">
+                <Board />
+                <BottomBoard />
+        </div>
         <Brands />
         <Tool />
         <BrandBusiness />
