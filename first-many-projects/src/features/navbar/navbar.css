@@ -9,9 +9,16 @@
 
 .navbar-nav {
     display: flex;
-    gap: 10px;
-}
+    gap: 3rem}
 
 ul li {
     list-style: none;
 }
+
+.cart-signIn {
+    display: flex;
+    gap: 2rem;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
