@@ -1,7 +1,7 @@
 .Board {
     width: 100vw;
     height: 100vh;
-
+    border-radius: 10px;
 }
 
 .Board-container {
@@ -16,13 +16,22 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    border-radius: 10px;
 }
 
 .Board-container h1 {
-    width: 40rem;
-    font-size: 30px;
+    width: 50rem;
+    font-size: 40px;
     font-weight: 800;
-    line-height: 40px;
+    line-height: 45px;
     text-align: center;
     margin-top: 60px;
+}
+
+.Board-container p {
+    width: 40rem;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+
 }
