@@ -1,6 +1,11 @@
 import React from 'react';
 import './bottom-board.css'
 import logo from "../../assets/Logo1.png"
+import facebook from "../../assets/Fb.png"
+import Pinterest from "../../assets/Pintrest.png"
+import instagram from "../../assets/Insta.png"
+import twitter from "../../assets/Twiter.png"
+import add from "../../assets/add.png"
 
 const BottomBoard = () => (
     <div className="BottomBoard-container common">
@@ -11,11 +16,14 @@ const BottomBoard = () => (
                         <img src={logo} alt="logo"/>
                     </div>
                     <div className="BottomBoard-top-right-social">
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
+                        <img src={instagram} alt="instagram"/>
+                        <img src={facebook} alt="facebook"/>
+                        <img src={twitter} alt="twitter"/>
+                        <img src={Pinterest} alt="pinterest"/>
+                        <img className={'more'} src={add} alt="more"/>
+                    </div>
+                    <div className="BottomBoard-top-right-today">
+                        Today
                     </div>
                 </div>
 

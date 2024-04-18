@@ -6,3 +6,16 @@
     bottom: -120px;
     border-radius: 10px;
 }
+
+.BottomBoard-top {
+    display: flex;
+}
+
+.BottomBoard-top-left {
+    display: flex;
+    gap: 20px;
+}
+
+.BottomBoard-top-right-social {
+    display: flex;
+}
