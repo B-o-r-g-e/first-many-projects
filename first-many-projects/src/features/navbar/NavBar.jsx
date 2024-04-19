@@ -5,7 +5,7 @@ import cart from "../../assets/cart.svg"
 
 const NavBar = () => (
     <nav className="navbar navbar-container common">
-        <div className="gpt3__navbar-links__logo">
+        <div className="library-logo gpt3__navbar-links__logo">
             <img src={logo} alt="logo"/>
         </div>
 
