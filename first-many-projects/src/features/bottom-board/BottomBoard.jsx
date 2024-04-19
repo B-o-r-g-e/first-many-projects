@@ -36,8 +36,8 @@ const BottomBoard = () => (
                         Stories
                         <img src={more} alt="more"/>
                     </div>
-                    <div className="BottomBoard-top-right-today mid">Post</div>
-                    <div className="BottomBoard-top-right-today mid">Blog</div>
+                    <div className="BottomBoard-top-right-today mid post">Post</div>
+                    <div className="BottomBoard-top-right-today mid blog">Blog</div>
                 </div>
 
                 <div className="BottomBoard-top-right">

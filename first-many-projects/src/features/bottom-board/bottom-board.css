@@ -154,6 +154,17 @@
     .stories img {
         display: flex;
     }
+
+    .post,
+    .blog {
+        display: none;
+    }
+
+    .prev,
+    .week,
+    .month {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 700px) {
