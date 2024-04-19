@@ -121,6 +121,10 @@
     height: 17px;
 }
 
+.BottomBoard-bottom {
+    margin-top: 50px;
+}
+
 .horizontal-line {
     width: 100%;
     height: 0;
@@ -175,6 +179,13 @@
     background-color: #D9F6DF;
     position: absolute;
     left: 570px;
+}
+
+.image1 {
+    height: 120px;
+    position: absolute;
+    right: 110px;
+    top: 110px;
 }
 
 

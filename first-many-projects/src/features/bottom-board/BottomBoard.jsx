@@ -65,7 +65,7 @@ const BottomBoard = () => (
                         <img src={timer} alt="timer"/>
                         10:00AM
                     </div>
-                    <img src={image1} alt="image"/>
+                    <img className={'image1'} src={image1} alt="image"/>
                 </div>
 
                 <div className="BottomBoard-bottom-second-layer"></div>
