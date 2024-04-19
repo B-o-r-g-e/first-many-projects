@@ -65,6 +65,16 @@
     margin-left: 30px;
 }
 
+.stories {
+    display: flex;
+    align-items: center;
+    gap: 6px
+}
+
+.stories img {
+    display: none;
+}
+
 .mid {
     background-color: #F6F6F6;
     font-size: 13px;
@@ -121,7 +131,29 @@
 
 
 @media screen and (max-width: 1050px) {
+    .BottomBoard-top {
+        font-weight: 500;
+    }
 
+    .BottomBoard-top-left {
+        gap: 5px;
+    }
+
+    .BottomBoard-top-right-social {
+        padding: 8px 13px;
+        gap: 0.5rem;
+        margin-left: 13px;
+    }
+
+    .fb,
+    .twitter,
+    .pinterest {
+        display: none;
+    }
+
+    .stories img {
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 700px) {
