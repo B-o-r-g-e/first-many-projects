@@ -8,6 +8,8 @@ import twitter from "../../assets/Twiter.png"
 import add from "../../assets/add.png"
 import love from "../../assets/love.png"
 import more from "../../assets/chevron-down.png"
+import cup from "../../assets/cup.png"
+
 
 const BottomBoard = () => (
     <div className="BottomBoard-container">
@@ -53,7 +55,12 @@ const BottomBoard = () => (
             <hr className="horizontal-line"/>
 
             <div className="BottomBoard-bottom">
-                <div className="BottomBoard-bottom-first-layer"></div>
+                <div className="BottomBoard-bottom-first-layer">
+                    <p>Show Filter</p>
+                    <img src={cup} alt="cup"/>
+                    <hr className="horizontal-line"/>
+                    <p className="time">5:00AM</p>
+                </div>
 
                 <div className="BottomBoard-bottom-second-layer"></div>
             </div>
