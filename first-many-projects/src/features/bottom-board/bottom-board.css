@@ -136,8 +136,9 @@
 .filter {
     color: #AAAAAA;
     white-space: nowrap;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
+    margin-top: 8px;
 }
 
 .cup {
@@ -158,6 +159,22 @@
     height: 40px;
     position: absolute;
     left: 400px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5BD476;
+    gap: 8px;
+    border: 1px solid #7DD790;
+    height: 40px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #D9F6DF;
+    position: absolute;
+    left: 600px;
 }
 
 
