@@ -137,7 +137,11 @@
     white-space: nowrap;
     font-size: 18px;
     font-weight: 500;
+}
 
+.cup {
+    height: 20px;
+    margin-left: 4rem;
 }
 
 

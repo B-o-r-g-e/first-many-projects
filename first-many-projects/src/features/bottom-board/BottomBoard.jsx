@@ -58,7 +58,7 @@ const BottomBoard = () => (
             <div className="BottomBoard-bottom">
                 <div className="BottomBoard-bottom-first-layer">
                     <p className={'filter'}>Show Filter</p>
-                    <img src={cup} alt="cup"/>
+                    <img className={'cup'} src={cup} alt="cup"/>
                     <hr className="horizontal-line"/>
                     <p className="time">5:00AM</p>
                     <div className="timer">
