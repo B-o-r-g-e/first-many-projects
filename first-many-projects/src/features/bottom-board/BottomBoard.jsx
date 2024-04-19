@@ -52,7 +52,11 @@ const BottomBoard = () => (
 
             <hr className="horizontal-line"/>
 
-            <div className="BottomBoard-bottom"></div>
+            <div className="BottomBoard-bottom">
+                <div className="BottomBoard-bottom-first-layer"></div>
+
+                <div className="BottomBoard-bottom-second-layer"></div>
+            </div>
         </div>
     </div>
 )
