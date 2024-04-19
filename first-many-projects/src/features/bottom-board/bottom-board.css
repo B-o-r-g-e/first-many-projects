@@ -130,6 +130,7 @@
 
 .BottomBoard-bottom-first-layer {
     display: flex;
+    position: relative;
 }
 
 .filter {
