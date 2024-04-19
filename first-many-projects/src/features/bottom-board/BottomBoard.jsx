@@ -42,10 +42,11 @@ const BottomBoard = () => (
                     <div className="BottomBoard-top-right-today mid month">Month</div>
                     <div className="love">
                         <img src={love} alt="love"/>
-
                     </div>
                 </div>
             </div>
+
+            <hr className="horizontal-line"/>
 
             <div className="BottomBoard-bottom"></div>
         </div>
