@@ -193,6 +193,8 @@
 
 
 
+
+
 @media screen and (max-width: 1050px) {
     .BottomBoard-top {
         font-weight: 500;
@@ -227,6 +229,26 @@
     .week,
     .month {
         display: none;
+    }
+
+    .image1 {
+        display: none;
+    }
+    
+    .time {
+        left: 230px;
+        font-size: 12px;
+        font-weight: 400;
+        gap: 6px;
+        padding: 12px 17px;
+    }
+
+    .timer {
+        left: 350px;
+        font-size: 12px;
+        font-weight: 400;
+        gap: 6px;
+        padding: 12px;
     }
 }
 

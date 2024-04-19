@@ -68,7 +68,13 @@ const BottomBoard = () => (
                     <img className={'image1'} src={image1} alt="image"/>
                 </div>
 
-                <div className="BottomBoard-bottom-second-layer"></div>
+                <div className="BottomBoard-bottom-second-layer">
+                    <div className="BottomBoard-bottom-second-layer-left">
+
+                    </div>
+
+                    <div className="BottomBoard-bottom-second-layer-right"></div>
+                </div>
             </div>
         </div>
     </div>
