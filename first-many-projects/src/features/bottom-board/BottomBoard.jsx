@@ -21,7 +21,9 @@ const BottomBoard = () => (
                         <img src={facebook} alt="facebook"/>
                         <img src={twitter} alt="twitter"/>
                         <img src={Pinterest} alt="pinterest"/>
-                        <img className={'more'} src={add} alt="more"/>
+                        <div className="more">
+                            <img src={add} alt="more"/>
+                        </div>
                     </div>
                     <div className="BottomBoard-top-right-today">
                         Today
