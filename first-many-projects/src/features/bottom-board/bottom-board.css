@@ -21,7 +21,7 @@
 
 .BottomBoard-top-left-logo img,
 .BottomBoard-top-right-social img {
-    height: 20px;
+    height: 10px;
 }
 
 .BottomBoard-top-right-social {
@@ -36,7 +36,7 @@
     background-color: #FF378E;
     border-radius: 50px;
     padding: 9px 20px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 500;
 }
 
@@ -48,7 +48,25 @@
 
 .mid {
     background-color: #F6F6F6;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 500;
     color: #AAAAAA;
+}
+
+.BottomBoard-top-right {
+    display: flex;
+    align-items: center;
+}
+
+.love {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F3F3F3;
+}
+
+.BottomBoard-top-right img {
+    height: 17px;
 }
