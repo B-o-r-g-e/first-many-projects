@@ -70,7 +70,11 @@ const BottomBoard = () => (
 
                 <div className="BottomBoard-bottom-second-layer">
                     <div className="BottomBoard-bottom-second-layer-left">
+                        <div className="BottomBoard-collage-menu"></div>
 
+                        <div className="BottomBoard-collage1"></div>
+
+                        <div className="BottomBoard-collage2"></div>
                     </div>
 
                     <div className="BottomBoard-bottom-second-layer-right"></div>

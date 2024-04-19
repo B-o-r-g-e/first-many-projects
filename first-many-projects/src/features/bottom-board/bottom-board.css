@@ -188,6 +188,20 @@
     top: 110px;
 }
 
+.BottomBoard-bottom-second-layer {
+    display: flex;
+}
+
+.BottomBoard-bottom-second-layer-left {
+    width: 253px;
+}
+
+.BottomBoard-bottom-second-layer-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 
 
 
