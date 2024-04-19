@@ -9,7 +9,8 @@ import add from "../../assets/add.png"
 import love from "../../assets/love.png"
 import more from "../../assets/chevron-down.png"
 import cup from "../../assets/cup.png"
-
+import timer from "../../assets/Timer.png"
+import image1 from "../../assets/Image.png"
 
 const BottomBoard = () => (
     <div className="BottomBoard-container">
@@ -60,6 +61,11 @@ const BottomBoard = () => (
                     <img src={cup} alt="cup"/>
                     <hr className="horizontal-line"/>
                     <p className="time">5:00AM</p>
+                    <div className="timer">
+                        <img src={timer} alt="timer"/>
+                        10:00AM
+                    </div>
+                    <img src={image1} alt="image"/>
                 </div>
 
                 <div className="BottomBoard-bottom-second-layer"></div>
