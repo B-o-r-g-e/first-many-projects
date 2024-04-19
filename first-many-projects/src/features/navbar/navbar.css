@@ -39,11 +39,11 @@ ul li {
 
 @media screen and (max-width: 1050px) {
     .library-logo img {
-        height: 20px;
+        height: 25px;
     }
 
     .navbar-nav {
-        gap: 10px;
+        gap: 20px;
     }
 }
 
