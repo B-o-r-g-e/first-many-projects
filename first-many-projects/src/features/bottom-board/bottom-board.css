@@ -126,11 +126,11 @@
     height: 0;
     border: 1px #E7E7E7 solid;
     margin: 20px 0;
+    position: relative;
 }
 
 .BottomBoard-bottom-first-layer {
     display: flex;
-    position: relative;
 }
 
 .filter {
@@ -144,6 +144,20 @@
     height: 25px;
     margin-left: 4rem;
     margin-right: 1rem;
+}
+
+.time {
+    color: #AAAAAA;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    left: 400px;
 }
 
 

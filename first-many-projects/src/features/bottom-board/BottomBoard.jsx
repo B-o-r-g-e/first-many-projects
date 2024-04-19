@@ -53,7 +53,7 @@ const BottomBoard = () => (
                 </div>
             </div>
 
-            <hr className="horizontal-line"/>
+            <div className="horizontal-line"/>
 
             <div className="BottomBoard-bottom">
                 <div className="BottomBoard-bottom-first-layer">
