@@ -75,10 +75,10 @@ const BottomBoard = () => (
                 <div className="BottomBoard-bottom-second-layer">
                     <div className="BottomBoard-bottom-second-layer-left">
                         <div className="BottomBoard-collage-menu">
-                            <img src="" alt=""/>
-                            <img src="" alt=""/>
-                            <img src="" alt=""/>
-                            <img src="" alt=""/>
+                            <img src={calendar} alt=""/>
+                            <img src={imageIcon} alt=""/>
+                            <img src={chat} alt=""/>
+                            <img src={graf} alt=""/>
                         </div>
 
                         <div className="BottomBoard-collage1"></div>
