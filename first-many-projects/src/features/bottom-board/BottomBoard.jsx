@@ -82,13 +82,13 @@ const BottomBoard = () => (
                         </div>
 
                         <div className="BottomBoard-collage1">
-                            <div className="small-box">
+                            <div className="small-box-container">
                                 <img className={'small-box'} src={imageIcon} alt=""/>
                             </div>
-                            <div className="medium-box">
+                            <div className="medium-box-container">
                                 <img className={'medium-box'} src={imageIcon} alt=""/>
                             </div>
-                            <div className="small-box">
+                            <div className="small-box-container">
                                 <img className={'small-box'} src={imageIcon} alt=""/>
                             </div>
                         </div>
