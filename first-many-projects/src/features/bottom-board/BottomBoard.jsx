@@ -81,7 +81,17 @@ const BottomBoard = () => (
                             <img src={graf} alt=""/>
                         </div>
 
-                        <div className="BottomBoard-collage1"></div>
+                        <div className="BottomBoard-collage1">
+                            <div className="small-box">
+                                <img className={'small-box'} src={imageIcon} alt=""/>
+                            </div>
+                            <div className="medium-box">
+                                <img className={'medium-box'} src={imageIcon} alt=""/>
+                            </div>
+                            <div className="small-box">
+                                <img className={'small-box'} src={imageIcon} alt=""/>
+                            </div>
+                        </div>
 
                         <div className="BottomBoard-collage2"></div>
                     </div>
