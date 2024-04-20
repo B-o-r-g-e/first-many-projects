@@ -11,6 +11,10 @@ import more from "../../assets/chevron-down.png"
 import cup from "../../assets/cup.png"
 import timer from "../../assets/Timer.png"
 import image1 from "../../assets/Image.png"
+import calendar from "../../assets/Calender.png"
+import chat from "../../assets/Chat.png"
+import imageIcon from "../../assets/Image-icon.png"
+import graf from "../../assets/Graf.png"
 
 const BottomBoard = () => (
     <div className="BottomBoard-container">
@@ -70,7 +74,12 @@ const BottomBoard = () => (
 
                 <div className="BottomBoard-bottom-second-layer">
                     <div className="BottomBoard-bottom-second-layer-left">
-                        <div className="BottomBoard-collage-menu"></div>
+                        <div className="BottomBoard-collage-menu">
+                            <img src="" alt=""/>
+                            <img src="" alt=""/>
+                            <img src="" alt=""/>
+                            <img src="" alt=""/>
+                        </div>
 
                         <div className="BottomBoard-collage1"></div>
 
