@@ -1,9 +1,9 @@
 .BottomBoard-container {
     width: 70vw;
-    height: 70vh;
+    height: 76vh;
     background-color: white;
     position: absolute;
-    bottom: -170px;
+    bottom: -200px;
     border-radius: 20px;
     padding: 35px;
 }
@@ -212,7 +212,7 @@
     flex-direction: column;
     padding: 20px;
     width: 85px;
-    gap: 30px;
+    gap: 38px;
     border-radius: 10px;
     background-color: #F6F6F6;
 }
@@ -246,7 +246,7 @@
     display: flex;
     flex: 1;
     /*height: 100px;*/
-    padding: 42px 20px;
+    padding: 53px 20px;
     border-radius: 10px;
     background-color: #E9E5FF;
 }
@@ -259,6 +259,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
 }
 
 
