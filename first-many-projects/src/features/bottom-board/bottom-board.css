@@ -1,9 +1,9 @@
 .BottomBoard-container {
     width: 70vw;
-    height: 60vh;
+    height: 70vh;
     background-color: white;
     position: absolute;
-    bottom: -120px;
+    bottom: -170px;
     border-radius: 20px;
     padding: 35px;
 }
@@ -204,12 +204,17 @@
 
 .BottomBoard-collage-menu {
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
+    width: 85px;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: #F6F6F6;
 }
 
 .BottomBoard-collage-menu img {
-
+    width: 25px;
 }
 
 
