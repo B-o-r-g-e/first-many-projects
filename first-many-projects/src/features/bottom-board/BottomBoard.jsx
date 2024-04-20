@@ -96,7 +96,20 @@ const BottomBoard = () => (
                             </div>
                         </div>
 
-                        <div className="BottomBoard-collage2"></div>
+                        <div className="BottomBoard-collage2">
+                            <div className="small-box-container">
+                                <img className={'small-box'} src={imageIcon2} alt=""/>
+                            </div>
+                            <div className="small-box-container">
+                                <img className={'small-box'} src={imageIcon2} alt=""/>
+                            </div>
+                            <div className="small-box-container">
+                                <img className={'small-box'} src={imageIcon2} alt=""/>
+                            </div>
+                            <div className="small-box-container">
+                                <img className={'small-box'} src={imageIcon2} alt=""/>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="BottomBoard-bottom-second-layer-right"></div>
