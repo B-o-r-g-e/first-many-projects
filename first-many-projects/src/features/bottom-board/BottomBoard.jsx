@@ -14,6 +14,7 @@ import image1 from "../../assets/Image.png"
 import calendar from "../../assets/Calender.png"
 import chat from "../../assets/Chat.png"
 import imageIcon from "../../assets/Image-icon.png"
+import imageIcon2 from "../../assets/imageIcon.svg"
 import graf from "../../assets/Graf.png"
 
 const BottomBoard = () => (
@@ -83,12 +84,12 @@ const BottomBoard = () => (
 
                         <div className="BottomBoard-collage1">
                             <div className="small-box-container">
-                                <img className={'small-box'} src={imageIcon} alt=""/>
+                                <img className={'small-box'} src={imageIcon2} alt=""/>
                             </div>
                             <div className="medium-box-container">
                                 <img className={'medium-box'} src={imageIcon} alt=""/>
                             </div>
-                            <div className="small-box-container">
+                            <div className="small-box-container sbc">
                                 <img className={'small-box'} src={imageIcon} alt=""/>
                             </div>
                         </div>
