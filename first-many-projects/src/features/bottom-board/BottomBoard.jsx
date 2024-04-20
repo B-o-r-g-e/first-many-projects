@@ -17,6 +17,10 @@ import imageIcon from "../../assets/Image-icon.png"
 import imageIcon2 from "../../assets/imageIcon.svg"
 import imageIcon3 from "../../assets/imageIcon3.png"
 import imageIcon4 from "../../assets/imageIcon4.png"
+import imageIcon5 from "../../assets/imageIcon5.png"
+import imageIcon6 from "../../assets/imageIcon6.png"
+import imageIcon7 from "../../assets/imageIcon7.png"
+import imageIcon8 from "../../assets/imageIcon8.png"
 import graf from "../../assets/Graf.png"
 
 const BottomBoard = () => (
@@ -97,17 +101,17 @@ const BottomBoard = () => (
                         </div>
 
                         <div className="BottomBoard-collage2">
-                            <div className="small-box-container">
-                                <img className={'small-box'} src={imageIcon2} alt=""/>
+                            <div className="small-box-container sbc1">
+                                <img className={'small-box'} src={imageIcon5} alt=""/>
                             </div>
-                            <div className="small-box-container">
-                                <img className={'small-box'} src={imageIcon2} alt=""/>
+                            <div className="small-box-container sbc2">
+                                <img className={'small-box'} src={imageIcon6} alt=""/>
                             </div>
-                            <div className="small-box-container">
-                                <img className={'small-box'} src={imageIcon2} alt=""/>
+                            <div className="small-box-container sbc3">
+                                <img className={'small-box'} src={imageIcon7} alt=""/>
                             </div>
-                            <div className="small-box-container">
-                                <img className={'small-box'} src={imageIcon2} alt=""/>
+                            <div className="small-box-container sbc4">
+                                <img className={'small-box'} src={imageIcon8} alt=""/>
                             </div>
                         </div>
                     </div>
