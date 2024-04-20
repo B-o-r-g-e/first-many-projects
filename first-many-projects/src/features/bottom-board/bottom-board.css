@@ -190,10 +190,13 @@
 
 .BottomBoard-bottom-second-layer {
     display: flex;
+    margin-top: 10px;
 }
 
 .BottomBoard-bottom-second-layer-left {
     width: 253px;
+    display: flex;
+    align-items: center;
 }
 
 .BottomBoard-bottom-second-layer-right {
