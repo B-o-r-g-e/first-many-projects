@@ -291,6 +291,18 @@
 .first-line img {
     position: absolute;
     left: 60px;
+    width: 5.5rem;
+}
+
+.second-line .time{
+    position: absolute;
+    left: 200px;
+}
+
+.second-line img {
+    position: absolute;
+    width: 5.5rem;
+    left: 320px;
 }
 
 
