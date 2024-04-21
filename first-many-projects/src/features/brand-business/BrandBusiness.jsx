@@ -6,9 +6,9 @@ import trusted from '../../assets/Trusted.png'
 
 const BrandBusiness = () => (
     <div className="BrandBusiness-container">
-        <img src="" alt="" className="chart"/>
-        <img src="" alt="" className="schedule"/>
-        <img src="" alt="" className="trusted"/>
+        <img src={chart} alt="" className="chart"/>
+        <img src={schedule} alt="" className="schedule"/>
+        <img src={trusted} alt="" className="trusted"/>
     </div>
 )
 
