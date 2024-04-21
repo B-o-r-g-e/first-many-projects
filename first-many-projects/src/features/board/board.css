@@ -4,6 +4,7 @@
     flex-direction: column;
     position: relative;
     box-sizing: border-box;
+    margin-bottom: 200px;
 }
 
 .Board {
