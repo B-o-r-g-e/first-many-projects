@@ -28,8 +28,7 @@
 
 @media screen and (max-width: 1050px) {
     .BrandBusiness-container {
-        width: 80vw;
-        background-color: red;
+        width: 70vw;
     }
 
     .chart {
