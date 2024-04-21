@@ -390,6 +390,30 @@
         gap: 6px;
         padding: 12px;
     }
+    
+    .second-line .time {
+        left: 0;
+    }
+
+    .second-line img {
+        display: none;
+    }
+
+    .third-line .time {
+        left: 6px;
+    }
+    
+    .third-line .image11 {
+        left: 70px;
+    }
+
+    .third-line .time2 {
+        display: none;
+    }
+
+    .third-line .image12 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 700px) {

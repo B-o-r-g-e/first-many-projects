@@ -128,15 +128,15 @@ const BottomBoard = () => (
 
                         <div className="second-line">
                             <hr className="horizontal-line"/>
-                            <p className="time">5:00AM</p>
+                            <p className="time">3:00AM</p>
                             <img src={image10} alt=""/>
                         </div>
 
                         <div className="third-line">
                             <hr className="horizontal-line"/>
-                            <p className="time">5:00AM</p>
+                            <p className="time">6:00AM</p>
                             <img className={'image11'} src={image11} alt=""/>
-                            <p className="time time2">5:00AM</p>
+                            <p className="time time2">8:00PM</p>
                             <img className={'image12'} src={image12} alt=""/>
                         </div>
                     </div>
