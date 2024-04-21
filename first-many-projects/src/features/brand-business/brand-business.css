@@ -3,22 +3,25 @@
     flex-direction: column;
     position: relative;
     flex: 1;
-    height: 600px;
+    height: 480px;
 }
 
 .chart {
     position: absolute;
     top: 0;
-    right: -20px;
-    width: 300px
+    right: 25px;
+    width: 250px
 }
 
 .schedule {
     position: absolute;
-    width: 600px
+    width: 500px;
+    top: 40px;
 }
 
 .trusted {
+    width: 300px;
     position: absolute;
+    left: -30px;
     bottom: 0;
 }
