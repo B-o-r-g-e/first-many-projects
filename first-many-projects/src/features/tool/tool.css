@@ -16,3 +16,9 @@
     font-weight: 800;
     line-height: 55px;
 }
+
+.tool-container p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
