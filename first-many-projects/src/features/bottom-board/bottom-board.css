@@ -392,7 +392,7 @@
     }
     
     .second-line .time {
-        left: 0;
+        left: 30px;
     }
 
     .second-line img {
@@ -400,7 +400,7 @@
     }
 
     .third-line .time {
-        left: 6px;
+        left: 0;
     }
     
     .third-line .image11 {
