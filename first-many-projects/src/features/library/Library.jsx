@@ -9,19 +9,19 @@ const Library = () => (
                 <Board />
                 <BottomBoard />
         </div>
-        <Brands />
-        <Tool />
-        <BrandBusiness />
-        <Simple />
-        <DoingBoard />
-        <DoingSecond />
-        <Connect />
-        <Working />
-        <Family />
-        <NewsArticle />
-        <TrialOffer />
-        <Tech />
-        <Footer />
+        {/*<Brands />*/}
+        {/*<Tool />*/}
+        {/*<BrandBusiness />*/}
+        {/*<Simple />*/}
+        {/*<DoingBoard />*/}
+        {/*<DoingSecond />*/}
+        {/*<Connect />*/}
+        {/*<Working />*/}
+        {/*<Family />*/}
+        {/*<NewsArticle />*/}
+        {/*<TrialOffer />*/}
+        {/*<Tech />*/}
+        {/*<Footer />*/}
     </div>
 )
 

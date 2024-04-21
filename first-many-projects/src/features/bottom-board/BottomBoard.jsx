@@ -116,7 +116,21 @@ const BottomBoard = () => (
                         </div>
                     </div>
 
-                    <div className="BottomBoard-bottom-second-layer-right"></div>
+                    <div className="BottomBoard-bottom-second-layer-right">
+                        <div className="first-line">
+                            <hr className="horizontal-line"/>
+                        </div>
+
+                        <div className="second-line">
+                            <hr className="horizontal-line"/>
+
+                        </div>
+
+                        <div className="third-line">
+                            <hr className="horizontal-line"/>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

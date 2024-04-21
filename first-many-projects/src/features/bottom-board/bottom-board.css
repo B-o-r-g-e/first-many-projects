@@ -202,6 +202,8 @@
 
 .BottomBoard-bottom-second-layer-right {
     display: flex;
+    justify-content: center;
+    gap: 30px;
     flex-direction: column;
     flex: 1;
 }
