@@ -21,6 +21,10 @@ import imageIcon5 from "../../assets/imageIcon5.png"
 import imageIcon6 from "../../assets/imageIcon6.png"
 import imageIcon7 from "../../assets/imageIcon7.png"
 import imageIcon8 from "../../assets/imageIcon8.png"
+import image9 from "../../assets/Image9.png"
+import image10 from "../../assets/Image10.png"
+import image11 from "../../assets/Image11.png"
+import image12 from "../../assets/Image12.png"
 import graf from "../../assets/Graf.png"
 
 const BottomBoard = () => (
@@ -119,16 +123,21 @@ const BottomBoard = () => (
                     <div className="BottomBoard-bottom-second-layer-right">
                         <div className="first-line">
                             <hr className="horizontal-line"/>
+                            <img src={image9} alt=""/>
                         </div>
 
                         <div className="second-line">
                             <hr className="horizontal-line"/>
-
+                            <p className="time">5:00AM</p>
+                            {/*<img src={image10} alt=""/>*/}
                         </div>
 
                         <div className="third-line">
                             <hr className="horizontal-line"/>
-
+                            <p className="time">5:00AM</p>
+                            {/*<img src={image11} alt=""/>*/}
+                            <p className="time">5:00AM</p>
+                            {/*<img src={image12} alt=""/>*/}
                         </div>
                     </div>
                 </div>

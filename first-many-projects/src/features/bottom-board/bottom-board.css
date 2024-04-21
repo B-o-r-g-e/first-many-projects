@@ -280,6 +280,14 @@
     background-color: #D1FBFD;
 }
 
+.first-line,
+.second-line,
+.third-line {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
 
 
 
