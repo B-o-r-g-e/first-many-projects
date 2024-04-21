@@ -21,6 +21,7 @@ const Tool = () => (
                 The Future of Writing Blog Articles
             </div>
         </div>
+        <button>Get Started</button>
     </div>
 )
 

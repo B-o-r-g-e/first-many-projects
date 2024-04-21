@@ -26,5 +26,12 @@
 .tool-list-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
+
+.tool-list-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
