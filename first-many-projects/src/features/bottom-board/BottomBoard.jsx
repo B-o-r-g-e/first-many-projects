@@ -135,9 +135,9 @@ const BottomBoard = () => (
                         <div className="third-line">
                             <hr className="horizontal-line"/>
                             <p className="time">5:00AM</p>
-                            {/*<img src={image11} alt=""/>*/}
-                            <p className="time">5:00AM</p>
-                            {/*<img src={image12} alt=""/>*/}
+                            <img className={'image11'} src={image11} alt=""/>
+                            <p className="time time2">5:00AM</p>
+                            <img className={'image12'} src={image12} alt=""/>
                         </div>
                     </div>
                 </div>

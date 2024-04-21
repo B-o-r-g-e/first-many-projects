@@ -305,6 +305,28 @@
     left: 320px;
 }
 
+.third-line .time {
+    position: absolute;
+    left: 20px;
+}
+
+.third-line .image11 {
+    position: absolute;
+    left: 120px;
+    width: 6rem;
+}
+
+.third-line .time2 {
+    position: absolute;
+    left: 400px;
+}
+
+.third-line .image12 {
+    position: absolute;
+    left: 510px;
+    width: 5.5rem;
+}
+
 
 
 
