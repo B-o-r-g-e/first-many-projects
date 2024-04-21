@@ -10,8 +10,10 @@ const Library = () => (
                 <BottomBoard />
         </div>
         <Brands />
-        {/*<Tool />*/}
-        {/*<BrandBusiness />*/}
+        <div className="ToolBrand">
+            <Tool />
+            <BrandBusiness />
+        </div>
         {/*<Simple />*/}
         {/*<DoingBoard />*/}
         {/*<DoingSecond />*/}
