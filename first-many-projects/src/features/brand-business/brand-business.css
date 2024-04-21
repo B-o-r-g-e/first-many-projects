@@ -9,19 +9,50 @@
 .chart {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 70px;
     width: 250px
 }
 
 .schedule {
     position: absolute;
-    width: 500px;
+    width: 550px;
     top: 40px;
 }
 
 .trusted {
     width: 300px;
     position: absolute;
-    left: -30px;
+    left: -20px;
     bottom: 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .BrandBusiness-container {
+        width: 80vw;
+        background-color: red;
+    }
+
+    .chart {
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .chart {
+        display: none;
+    }
+
+    .schedule {
+        position: absolute;
+        top: 0;
+    }
+
+    .trusted {
+        position: absolute;
+        bottom: -450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
 }
