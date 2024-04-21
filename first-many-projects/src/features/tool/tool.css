@@ -1,6 +1,6 @@
 .ToolBrand {
     display: flex;
-    width: 100%;
+    width: 80vw;
 }
 
 .tool-container {
@@ -8,4 +8,10 @@
     flex-direction: column;
     width: 538px;
     gap: 25px;
+}
+
+.tool-container h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 55px;
 }
