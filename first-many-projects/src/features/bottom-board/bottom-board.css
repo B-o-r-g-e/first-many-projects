@@ -288,6 +288,12 @@
     position: relative;
 }
 
+.first-line img {
+    position: absolute;
+    left: 60px;
+}
+
+
 
 
 
