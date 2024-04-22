@@ -8,7 +8,13 @@ const Simple = () => (
         </div>
 
         <div className="simple-container-body">
-
+            <p className="category">Publish</p>
+            <h1 className="title">Save time
+                by scheduling posts</h1>
+            <p className="words">
+                Building an enterprisedoesn't need
+                nightmare or cost your thousands.
+                Felix is purpose built.</p>
         </div>
     </div>
 )
