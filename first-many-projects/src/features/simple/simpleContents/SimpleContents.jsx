@@ -5,7 +5,7 @@ const SimpleContents = ({categories, titles, theIcon}) => {
     return (
         <div className="simple-container-body-contents">
             <div className="simple-container-body-first">
-                <p className="category">{categories}</p>
+                <div className="category">{categories}</div>
                 <h1 className="title">{titles}</h1>
                 <p className="words">
                     Building an enterprise doesn't need
