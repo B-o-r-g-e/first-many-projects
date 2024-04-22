@@ -3,3 +3,9 @@
     width: 100vw;
     height: 60vh;
 }
+
+.doing-board-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

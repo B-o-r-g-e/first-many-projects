@@ -17,7 +17,7 @@ const Library = () => (
         <Simple />
         <div className="DoingBoard-container">
             <DoingBoard />
-            <DoingSecond />
+            {/*<DoingSecond />*/}
         </div>
         {/*<Connect />*/}
         {/*<Working />*/}
