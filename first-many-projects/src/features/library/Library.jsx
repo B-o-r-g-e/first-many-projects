@@ -15,8 +15,10 @@ const Library = () => (
             <BrandBusiness />
         </div>
         <Simple />
-        {/*<DoingBoard />*/}
-        {/*<DoingSecond />*/}
+        <div className="DoingBoard-container">
+            <DoingBoard />
+            <DoingSecond />
+        </div>
         {/*<Connect />*/}
         {/*<Working />*/}
         {/*<Family />*/}
