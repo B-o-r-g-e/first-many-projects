@@ -12,3 +12,13 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
+.simple-container-body-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.simple-container-body-first {
+    display: flex;
+    flex-direction: column;
+}
