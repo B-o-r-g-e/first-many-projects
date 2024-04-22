@@ -1,11 +1,15 @@
 import React from 'react';
 import './simple.css'
-// import {Navbar} from "../../Components/index.js";
 
 const Simple = () => (
     <div className="simple-container">
-        Good
-        <p style={{color: 'white'}}>here is library</p>
+        <div className="simple-container-header">
+            <h1>Simple, Yet Powerful Features</h1>
+        </div>
+
+        <div className="simple-container-body">
+
+        </div>
     </div>
 )
 
