@@ -6,8 +6,8 @@ const Library = () => (
     <div className="library">
         <NavBar />
         <div className="boards">
-                <Board />
-                <BottomBoard />
+            <Board />
+            <BottomBoard />
         </div>
         <Brands />
         <div className="ToolBrand">
