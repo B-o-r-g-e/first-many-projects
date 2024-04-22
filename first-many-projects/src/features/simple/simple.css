@@ -10,15 +10,21 @@
 
 .simple-container-body {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .simple-container-body-contents {
     display: flex;
     flex-direction: column;
+    Width: 310px;
+    border: 1px solid red;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 .simple-container-body-first {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
