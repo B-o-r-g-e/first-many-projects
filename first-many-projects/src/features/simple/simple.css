@@ -28,3 +28,15 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.category {
+    font-size: 14px;
+    font-weight: 500;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 8px 18px;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    color: #2F2F2F;
+}
