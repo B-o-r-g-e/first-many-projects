@@ -11,7 +11,7 @@ import calTime5 from '../../assets/caltime5.svg'
 const Simple = () => (
     <div className="simple-container">
         <div className="simple-container-header">
-            <h1>Simple, Yet Powerful Features</h1>
+            <h1>Simple, yet Powerful Features</h1>
         </div>
 
         <div className="simple-container-body">

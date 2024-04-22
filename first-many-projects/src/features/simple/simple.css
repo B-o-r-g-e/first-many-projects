@@ -13,3 +13,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+
+@media screen and (max-width: 1050px) {
+    .simple-container-body {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .simple-container-body {
+        /*grid-template-columns: 1fr;*/
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+}
