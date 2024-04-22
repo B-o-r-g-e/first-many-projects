@@ -1,5 +1,6 @@
 import React from 'react';
 import './simple.css'
+import calTime from '../../assets/caltime.svg'
 
 const Simple = () => (
     <div className="simple-container">
@@ -22,10 +23,11 @@ const Simple = () => (
                 <hr className="horizontal-line"/>
 
                 <div className="simple-container-body-second">
-                    <img src="" alt="icon"/>
+                    <img src={calTime} alt="icon"/>
                     <button>Get Started</button>
                 </div>
             </div>
+
             <div className="simple-container-body-contents">
                 <div className="simple-container-body-first">
                     <p className="category">Publish</p>
@@ -40,10 +42,11 @@ const Simple = () => (
                 <hr className="horizontal-line"/>
 
                 <div className="simple-container-body-second">
-                    <img src="" alt="icon"/>
+                    <img src={calTime} alt="icon"/>
                     <button>Get Started</button>
                 </div>
             </div>
+
             <div className="simple-container-body-contents">
                 <div className="simple-container-body-first">
                     <p className="category">Publish</p>
@@ -58,7 +61,7 @@ const Simple = () => (
                 <hr className="horizontal-line"/>
 
                 <div className="simple-container-body-second">
-                    <img src="" alt="icon"/>
+                    <img src={calTime} alt="icon"/>
                     <button>Get Started</button>
                 </div>
             </div>
