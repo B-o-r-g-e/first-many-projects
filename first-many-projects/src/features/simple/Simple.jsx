@@ -1,5 +1,6 @@
 import React from 'react';
 import './simple.css'
+import SimpleContents from "./simpleContents/SimpleContents.jsx";
 import calTime from '../../assets/caltime.svg'
 
 const Simple = () => (
@@ -9,7 +10,7 @@ const Simple = () => (
         </div>
 
         <div className="simple-container-body">
-
+            <SimpleContents categories={'Publish'} titles={'Save time by scheduling posts'} theIcon={calTime} />
         </div>
 
     </div>

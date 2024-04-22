@@ -1,14 +1,12 @@
-import calTime from "../../../assets/caltime.svg";
 import React from "react";
-import simpleContents from "./simpleContents.css";
+import "./simpleContents.css";
 
-const SimpleContents = () => {
+const SimpleContents = ({categories, titles, theIcon}) => {
     return (
         <div className="simple-container-body-contents">
             <div className="simple-container-body-first">
-                <p className="category">Publish</p>
-                <h1 className="title">Save time
-                    by scheduling posts</h1>
+                <p className="category">{categories}</p>
+                <h1 className="title">{titles}</h1>
                 <p className="words">
                     Building an enterprise doesn't need
                     nightmare or cost your thousands.
@@ -18,7 +16,7 @@ const SimpleContents = () => {
             <hr className="horizontal-line"/>
 
             <div className="simple-container-body-second">
-                <img src={calTime} alt="icon"/>
+                <img src={theIcon} alt="icon"/>
                 <button>Get Started</button>
             </div>
         </div>
