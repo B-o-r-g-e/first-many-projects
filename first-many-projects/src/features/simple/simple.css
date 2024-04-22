@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     Width: 310px;
-    border: 1px solid red;
+    border: 1px solid #DCDCDC;
     padding: 30px;
     border-radius: 20px;
 }
@@ -39,4 +39,18 @@
     border-radius: 20px;
     background-color: #F6F6F6;
     color: #2F2F2F;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+}
+
+.words {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
 }
