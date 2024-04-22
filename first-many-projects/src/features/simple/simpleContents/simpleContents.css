@@ -25,6 +25,7 @@
     background-color: #F6F6F6;
     color: #2F2F2F;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 .title {
