@@ -14,7 +14,7 @@ const Library = () => (
             <Tool />
             <BrandBusiness />
         </div>
-        {/*<Simple />*/}
+        <Simple />
         {/*<DoingBoard />*/}
         {/*<DoingSecond />*/}
         {/*<Connect />*/}
