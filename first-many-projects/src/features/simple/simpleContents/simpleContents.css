@@ -26,6 +26,7 @@
     color: #2F2F2F;
     margin-bottom: 10px;
     text-transform: capitalize;
+    white-space: nowrap;
 }
 
 .title {
