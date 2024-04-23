@@ -10,3 +10,9 @@
     display: flex;
     gap: 10px;
 }
+
+.connect-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
