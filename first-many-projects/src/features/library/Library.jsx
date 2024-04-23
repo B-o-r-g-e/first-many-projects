@@ -20,7 +20,7 @@ const Library = () => (
             <DoingSecond />
         </div>
         <Connect />
-        {/*<Working />*/}
+        <Working />
         {/*<Family />*/}
         {/*<NewsArticle />*/}
         {/*<TrialOffer />*/}
