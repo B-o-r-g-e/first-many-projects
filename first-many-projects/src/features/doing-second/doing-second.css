@@ -1,0 +1,11 @@
+.doing-second-container {
+    background-image: url("../../assets/doingSeconf.png");
+    height: 70vh;
+    width: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+}
