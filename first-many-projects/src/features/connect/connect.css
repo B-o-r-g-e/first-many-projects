@@ -1,3 +1,12 @@
+.connect-container {
+    margin-top: 400px;
+    /*height: 70vh;*/
+    width: 50vw;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+
 .connect {
-        margin-top: 400px;
+    display: flex;
+    gap: 10px;
 }
