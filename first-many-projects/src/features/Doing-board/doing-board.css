@@ -8,6 +8,7 @@
     height: 60vh;
     display: flex;
     justify-content: center;
+    /*align-items: center;*/
     gap: 600px;
     padding: 100px 0 0 0;
 }
@@ -15,13 +16,18 @@
 .doing-board-left {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
 }
 
 .doing-board-left h1 {
-    /*width: 20%;*/
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+
 }
 
 .doing-board-left p {
-
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
 }
