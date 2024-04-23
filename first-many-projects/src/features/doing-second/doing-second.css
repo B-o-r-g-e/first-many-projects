@@ -9,3 +9,16 @@
     position: absolute;
     top: 55%;
 }
+
+.doing-second {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.doing-second img {
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

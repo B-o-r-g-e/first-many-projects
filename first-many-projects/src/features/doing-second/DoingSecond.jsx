@@ -1,11 +1,12 @@
 import React from 'react';
 import './doing-second.css'
-// import {Navbar} from "../../Components/index.js";
+import button from "../../assets/Buttonsecondboard.png"
 
 const DoingSecond = () => (
     <div className="doing-second-container">
-        Good
-        <p style={{color: 'white'}}>here is library</p>
+        <div className="doing-second">
+            <img src={button} alt="image"/>
+        </div>
     </div>
 )
 
