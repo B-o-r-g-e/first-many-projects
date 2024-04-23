@@ -21,7 +21,7 @@
     width: 100vw;
     height: 60%;
     align-items: center;
-    gap: 470px;
+    gap: 35%;
     padding: 30px 0 0 0;
 }
 
@@ -56,4 +56,19 @@
     text-align: center;
     border-radius: 50px;
     border: none;
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 550px) {
+
 }
