@@ -9,3 +9,11 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.doing-board-left h1 {
+    width: 20%;
+}
+
+.doing-board-left p {
+
+}
