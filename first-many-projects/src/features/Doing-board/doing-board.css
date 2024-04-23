@@ -62,11 +62,32 @@
 
 
 @media screen and (max-width: 1050px) {
+    .doing-board {
+        gap: 20%;
+    }
 
+    .doing-board {
+
+    }
+
+    .doing-board-left h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .doing-board-left p {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 700px) {
+    .doing-board {
 
+    }
+
+    .doing-board-left h1 {
+
+    }
 }
 
 @media screen and (max-width: 550px) {
