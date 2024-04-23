@@ -21,4 +21,29 @@
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    padding: 20px;
+}
+
+.working-right h1 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+}
+
+.working-right p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.working-right button {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    width: 40%;
+    padding: 15px 0;
+    border-radius: 50px;
+    border: none;
+    color: #2F2F2F;
 }
