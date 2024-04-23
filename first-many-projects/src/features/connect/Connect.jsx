@@ -1,6 +1,7 @@
 import React from 'react';
 import './connect.css'
-import socials from "../../assets/socials.png"
+import schedule from '../../assets/Shedule.png'
+// import socials from "../../assets/socials.png"
 
 const Connect = () => (
     <div className="connect-container">
@@ -13,7 +14,7 @@ const Connect = () => (
             </div>
 
             <div className="connect-right">
-                <img src={socials} alt="socials"/>
+                <img src={schedule} alt="socials"/>
             </div>
         </div>
     </div>

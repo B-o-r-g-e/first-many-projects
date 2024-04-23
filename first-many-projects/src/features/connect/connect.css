@@ -1,18 +1,38 @@
 .connect-container {
     margin-top: 400px;
     /*height: 70vh;*/
-    width: 50vw;
+    width: 63vw;
     border-radius: 20px;
     border: 1px solid red;
 }
 
 .connect {
     display: flex;
-    gap: 10px;
+    /*gap: 10px;*/
 }
 
 .connect-left {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.connect-left h1 {
+    font-size: 2rem;
+}
+
+.connect-left p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.connect-right {
+    display: block;
+}
+
+.connect-right img {
+    width: 30rem;
 }
