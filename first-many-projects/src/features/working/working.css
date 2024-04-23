@@ -47,3 +47,9 @@
     border: none;
     color: #2F2F2F;
 }
+
+.working-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
