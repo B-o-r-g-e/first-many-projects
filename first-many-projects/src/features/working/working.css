@@ -1,5 +1,12 @@
 .working-container {
     margin-top: 100px;
+    width: 70vw;
+    border: 1px solid red;
+}
+
+.working {
+    display: grid;
+    grid-template-columns: 350px 1fr;
 }
 
 .working-right {
@@ -7,4 +14,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 350px;
+    height: 400px;
+
 }
