@@ -9,13 +9,13 @@
 .connect {
     display: flex;
     justify-content: center;
-    /*gap: 10px;*/
+    gap: 10px;
 }
 
 .connect-left {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 
 .connect-left h1 {
