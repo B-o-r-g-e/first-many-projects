@@ -46,7 +46,17 @@
 
 
 @media screen and (max-width: 1050px) {
+    .connect-container {
+        margin-top: 300px;
+    }
+    
+    .connect {
+        flex-direction: column;
+    }
 
+    .connect img {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 700px) {
