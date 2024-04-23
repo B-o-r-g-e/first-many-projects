@@ -1,14 +1,16 @@
 .doing-board-container {
     display: flex;
+    background-image: url("../../assets/doingBoard.jpg");
+    width: 100vw;
+    height: 70vh;
 }
 
 .doing-board {
-    background-image: url("../../assets/doingBoard.jpg");
-    width: 100vw;
-    height: 60vh;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
+    width: 100vw;
+    height: 60%;
+    align-items: center;
     gap: 600px;
     padding: 100px 0 0 0;
 }
@@ -27,13 +29,14 @@
 }
 
 .doing-board-left p {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     text-align: left;
 }
 
 .doing-board-right {
-    display: flex;
+    display: block;
+    justify-content: center;
 }
 
 .doing-board-right button {
