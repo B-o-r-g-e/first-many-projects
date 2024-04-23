@@ -14,8 +14,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 350px;
-    height: 400px;
+    width: 330px;
+    height: 370px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
