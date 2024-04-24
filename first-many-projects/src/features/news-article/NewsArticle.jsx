@@ -26,7 +26,7 @@ const NewsArticle = () => (
                     <article className="article-box second-art">
                         <NewsCon title={'New Device Invention for Digital Platform'}/>
                     </article>
-                    <article className="article-box second-art third-art">
+                    <article className="article-box third-art">
                         <NewsCon title={'Business Strategy Make His Goal Achieve'}/>
                     </article>
                 </div>
