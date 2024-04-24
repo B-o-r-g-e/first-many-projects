@@ -52,6 +52,24 @@
     flex-direction: column;
     width: 60%;
     align-items: center;
+    gap: 20px;
+}
+
+.dp-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.dp {
+    width: 7rem;
+}
+
+.dp-icon {
+    width: 2.5rem;
+    position: absolute;
+    bottom: -10px;
+    left: -15px;
 }
 
 

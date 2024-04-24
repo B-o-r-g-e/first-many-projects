@@ -17,8 +17,8 @@ const Family = () => (
                    </button>
                    <div className="modal-mid">
                        <div className="dp-container">
-                           <img src={dp} alt=""/>
-                           <img src={dpIcon} alt=""/>
+                           <img className={'dp'} src={dp} alt=""/>
+                           <img className={'dp-icon'} src={dpIcon} alt=""/>
                        </div>
 
                        <div className="name-container">
