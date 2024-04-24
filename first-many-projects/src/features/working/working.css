@@ -74,8 +74,10 @@
 .each-content h2 {
     font-size: 18px;
     font-weight: 700;
-    line-height: 33px;
-    width: ;
+    line-height: 23px;
+    width: 200px;
+    border: 1px solid red;
+    color: #d0d0d0;
 }
 
 .each-content p {
