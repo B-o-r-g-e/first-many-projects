@@ -13,13 +13,31 @@ const NewsArticle = () => (
                         is purpose built for ease of use and complete
                         flexability.</p>
                 </div>
-
                 <div className="news-article-right">
                     <button>See More News</button>
                 </div>
             </div>
 
-            <div className="news-article-bottom"></div>
+            <div className="news-article-bottom">
+                <div className="article-container">
+                    <div className="article-box">
+                        <div className="article-img">
+                            <p>Analyse</p>
+                            <p>Marketing</p>
+                        </div>
+                        <div className="dateRead">
+                            <div className="date">December 05, 2021</div>
+                            <div className="read">3 min read</div>
+                        </div>
+                        <div className="article-body-container">
+                            <h1>Detailed insights for your
+                                social media</h1>
+                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the standard dummy.</p>
+                            <p className="view-more">View More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 )

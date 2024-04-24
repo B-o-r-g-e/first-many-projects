@@ -9,6 +9,7 @@
 .news-article {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .news-article-top {
