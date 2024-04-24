@@ -1,6 +1,6 @@
 import React from 'react';
 import './news-article.css'
-// import {Navbar} from "../../Components/index.js";
+import NewsCon from "./newsCon/NewsCon.jsx";
 
 const NewsArticle = () => (
     <div className="news-article-container">
@@ -21,61 +21,15 @@ const NewsArticle = () => (
             <div className="news-article-bottom">
                 <div className="article-container">
                     <article className="article-box">
-                        <div className="article-img">
-                            <div className="article-img-categories">
-                                <p>Analyse</p>
-                                <p>Marketing</p>
-                            </div>
-                        </div>
-                        <div className="dateRead">
-                            <div className="date">December 05, 2021</div>
-                            <div className="read">3 min read</div>
-                        </div>
-                        <div className="article-body-container">
-                            <h1>Detailed insights for your
-                                social media</h1>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has
-                                been the standard dummy.</p>
-                            <p className="view-more ">View More</p>
-                        </div>
+                        <NewsCon title={'Detailed insights for your social media'}/>
                     </article>
-                    <article className="article-box">
-                        <div className="article-img">
-                            <div className="article-img-categories">
-                                <p>Analyse</p>
-                                <p>Marketing</p>
-                            </div>
-                        </div>
-                        <div className="dateRead">
-                            <div className="date">December 05, 2021</div>
-                            <div className="read">3 min read</div>
-                        </div>
-                        <div className="article-body-container">
-                            <h1>Detailed insights for your
-                                social media</h1>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has
-                                been the standard dummy.</p>
-                            <p className="view-more ">View More</p>
-                        </div>
+
+                    <article className="article-box second-art">
+                        <NewsCon title={'New Device Invention for Digital Platform'}/>
                     </article>
-                    <article className="article-box">
-                        <div className="article-img">
-                            <div className="article-img-categories">
-                                <p>Analyse</p>
-                                <p>Marketing</p>
-                            </div>
-                        </div>
-                        <div className="dateRead">
-                            <div className="date">December 05, 2021</div>
-                            <div className="read">3 min read</div>
-                        </div>
-                        <div className="article-body-container">
-                            <h1>Detailed insights for your
-                                social media</h1>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has
-                                been the standard dummy.</p>
-                            <p className="view-more ">View More</p>
-                        </div>
+
+                    <article className="article-box third-art">
+                        <NewsCon title={'Business Strategy Make His Goal Achieve'}/>
                     </article>
                 </div>
             </div>
