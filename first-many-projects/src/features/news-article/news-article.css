@@ -90,3 +90,10 @@
     border-radius: 50px;
     font-size: 13px;
 }
+
+.dateRead {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #bebebe;
+}
