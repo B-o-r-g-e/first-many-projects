@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 100px;
 }
 
 .modal-prev {
@@ -78,6 +78,17 @@
 
 .name {
     font-weight: 800;
+}
+
+.rating {
+    width: 7rem;
+}
+
+.details {
+    font-size: 0.9rem;
+    width: 30rem;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
