@@ -12,7 +12,7 @@ const Family = () => (
            <div className="family-top">
                <h1>Our Happy Family</h1>
                <div className="modal">
-                   <button className="prev">
+                   <button className="modal-prev">
                        <img src={chevronLeft} alt="modal-prev"/>
                    </button>
                    <div className="modal-mid">
