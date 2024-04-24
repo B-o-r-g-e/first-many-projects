@@ -29,7 +29,7 @@ const Family = () => (
 
                        </div>
                    </div>
-                   <img src="" alt="" className="next"/>
+                   <img src={chevronRight} alt="" className="next"/>
                </div>
            </div>
 
