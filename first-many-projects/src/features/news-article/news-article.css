@@ -10,3 +10,15 @@
     display: flex;
     flex-direction: column;
 }
+
+.news-article-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-article-left {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
