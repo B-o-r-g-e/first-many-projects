@@ -63,6 +63,7 @@
     flex-direction: column;
     width: 290px;
     border: 1px solid red;
+    gap: 15px;
 }
 
 .each-content h1 {
@@ -81,5 +82,7 @@
 }
 
 .each-content p {
-
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
 }
