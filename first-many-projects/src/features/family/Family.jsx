@@ -43,7 +43,18 @@ const Family = () => (
 
             <div className="horizontal-line new-line"/>
 
-            <div className="family-bottom"></div>
+            <div className="family-bottom">
+                <h1>Businesses all over the world trust
+                    Buffer to build their brand</h1>
+                <div className="family-bottom-count-container">
+                    <div className="family-bottom-count">
+                        <h1>10 years</h1>
+                        <p>In Business</p>
+                    </div>
+                </div>
+                <p>Join 160,000+ small businesses like yours</p>
+                <button>Select a Plan</button>
+            </div>
         </div>
     </div>
 )
