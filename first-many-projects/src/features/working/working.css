@@ -49,21 +49,23 @@
 }
 
 .working-left {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .each-content-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 30px;
 }
 
 .each-content {
     display: flex;
     flex-direction: column;
     width: 290px;
-    border: 1px solid red;
-    gap: 15px;
+    gap: 10px;
 }
 
 .each-content h1 {
@@ -77,7 +79,6 @@
     font-weight: 700;
     line-height: 23px;
     width: 200px;
-    border: 1px solid red;
     color: #d0d0d0;
 }
 
@@ -85,4 +86,5 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
+    color: #d0d0d0;
 }
