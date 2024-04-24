@@ -21,7 +21,7 @@ const Library = () => (
         </div>
         <Connect />
         <Working />
-        {/*<Family />*/}
+        <Family />
         {/*<NewsArticle />*/}
         {/*<TrialOffer />*/}
         {/*<Tech />*/}
