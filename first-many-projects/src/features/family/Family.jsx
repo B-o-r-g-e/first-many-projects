@@ -2,6 +2,9 @@ import React from 'react';
 import './family.css'
 import chevronLeft from '../../assets/chevron-left.png'
 import chevronRight from '../../assets/chevron-right.png'
+import dp from '../../assets/dp.png'
+import dpIcon from '../../assets/dpIcon.png'
+import star from '../../assets/Star.png'
 
 const Family = () => (
     <div className="family-container">
@@ -14,19 +17,24 @@ const Family = () => (
                    </button>
                    <div className="mid">
                        <div className="dp-container">
-                           <img src="" alt=""/>
-                           <img src="" alt=""/>
+                           <img src={dp} alt=""/>
+                           <img src={dpIcon} alt=""/>
                        </div>
 
                        <div className="name-container">
-                           <div className="name"></div>
-                           <div className="position"></div>
+                           <div className="name"> Mick G.,</div>
+                           <div className="position"> Head of Sales and Marketing</div>
                        </div>
 
-                       <img src="" alt="" className="rating"/>
+                       <img src={star} alt="" className="rating"/>
 
                        <div className="details">
-
+                           Lorem Ipsum is simply dummy text
+                           of the printing and typesetting industry.
+                           Lorem Ipsum has been the industry's standard
+                           dummy text ever since the when an unknown printer
+                           took a galley of type and scrambled it to make a
+                           type specimen book.
                        </div>
                    </div>
                    <img src={chevronRight} alt="" className="next"/>
