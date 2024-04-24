@@ -4,8 +4,23 @@ import './news-article.css'
 
 const NewsArticle = () => (
     <div className="news-article-container">
-        Good
-        <p style={{color: 'white'}}>here is library</p>
+        <div className="news-article">
+            <div className="news-article-top">
+                <div className="news-article-left">
+                    <h1>Latest News and Articles</h1>
+                    <p>We currently support Facebook, Instagram,
+                        LinkedIn and Twitter. More to come. Felix
+                        is purpose built for ease of use and complete
+                        flexability.</p>
+                </div>
+
+                <div className="news-article-right">
+                    <button>See More News</button>
+                </div>
+            </div>
+
+            <div className="news-article-bottom"></div>
+        </div>
     </div>
 )
 

@@ -22,7 +22,7 @@ const Library = () => (
         <Connect />
         <Working />
         <Family />
-        {/*<NewsArticle />*/}
+        <NewsArticle />
         {/*<TrialOffer />*/}
         {/*<Tech />*/}
         {/*<Footer />*/}
