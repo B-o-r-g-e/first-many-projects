@@ -13,9 +13,9 @@ const Family = () => (
                <h1>Our Happy Family</h1>
                <div className="modal">
                    <button className="prev">
-                       <img src={chevronLeft} alt="previous"/>
+                       <img src={chevronLeft} alt="modal-prev"/>
                    </button>
-                   <div className="mid">
+                   <div className="modal-mid">
                        <div className="dp-container">
                            <img src={dp} alt=""/>
                            <img src={dpIcon} alt=""/>
