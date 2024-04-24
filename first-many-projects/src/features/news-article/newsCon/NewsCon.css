@@ -1,3 +1,70 @@
+.article-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article-img {
+    background-image: url("../../../assets/ArtilceImg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.article-img-categories {
+    gap: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 13px;
+    left: 13px;
+
+}
+
+.article-img-categories p {
+    background-color: white;
+    display: flex;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.dateRead {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #bebebe;
+}
+
+.article-body-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.article-body-container h1 {
+    font-size: 1.3rem;
+    width: 85%;
+}
+
+.article-body-container p {
+    font-size: 0.87rem;
+    width: 100%;
+    color: #bebebe;
+}
+
+.view-more {
+    color: white;
+}
+
 .third-art .article-img {
     background-image: url("../../../assets/thirdart.png");
 }
