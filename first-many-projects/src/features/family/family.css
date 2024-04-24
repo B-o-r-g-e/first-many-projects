@@ -1,4 +1,17 @@
+.family-container {
+    margin-top: 120px;
+    height: 120vh;
+    border: 1px solid red;
+    width: 70vw;
+    border-radius: 20px;
+    padding: 20px;
+}
 
+.family {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 
