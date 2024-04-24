@@ -55,6 +55,14 @@ const Family = () => (
                         <h1>10 years</h1>
                         <p>In Business</p>
                     </div>
+                    <div className="family-bottom-count">
+                        <h1>10 years</h1>
+                        <p>In Business</p>
+                    </div>
+                    <div className="family-bottom-count">
+                        <h1>10 years</h1>
+                        <p>In Business</p>
+                    </div>
                 </div>
                 <p>Join 160,000+ small businesses like yours</p>
                 <button>Select a Plan</button>
