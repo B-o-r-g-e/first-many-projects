@@ -52,7 +52,7 @@
     flex-direction: column;
     width: 60%;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .dp-container {
@@ -70,6 +70,14 @@
     position: absolute;
     bottom: -10px;
     left: -15px;
+}
+
+.name-container {
+    display: flex;
+}
+
+.name {
+    font-weight: 800;
 }
 
 
