@@ -1,5 +1,6 @@
 import React from 'react';
 import './working.css'
+import WorkingSteps from './WorkingSteps/WorkingSteps.jsx'
 
 const Working = () => (
     <div className="working-container">
@@ -14,38 +15,10 @@ const Working = () => (
 
             <div className="working-left">
                 <div className="each-content-container">
-                    <div className="each-content">
-                        <h1>01</h1>
-                        <h2>Create your free account</h2>
-                        <p>Building ddfgan enterprisedoesn't
-                            need nightmare or cost your thousands.
-                            Felix is purpose built.</p>
-                    </div>
-
-                    <div className="each-content">
-                        <h1>01</h1>
-                        <h2>Create your free account</h2>
-                        <p>Building ddfgan enterprisedoesn't
-                            need nightmare or cost your thousands.
-                            Felix is purpose built.</p>
-                    </div>
-
-                    <div className="each-content">
-                        <h1>01</h1>
-                        <h2>Create your free account</h2>
-                        <p>Building ddfgan enterprisedoesn't
-                            need nightmare or cost your thousands.
-                            Felix is purpose built.</p>
-                    </div>
-
-                    <div className="each-content">
-                        <h1>01</h1>
-                        <h2>Create your free account</h2>
-                        <p>Building ddfgan enterprisedoesn't
-                            need nightmare or cost your thousands.
-                            Felix is purpose built.</p>
-                    </div>
-
+                    <WorkingSteps step={'01'} heading={'Create your free account'} explain={'Building ddfgan enterprise doesn\'t need nightmare or cost your thousands. Felix is purpose built.'} />
+                    <WorkingSteps step={'02'} heading={'Connect your\n' + 'channels'} explain={'Building ddfgan enterprise doesn\'t need nightmare or cost your thousands. Felix is purpose built.'} />
+                    <WorkingSteps step={'03'} heading={"Schedule your\n" + "posts"} explain={'Building ddfgan enterprise doesn\'t need nightmare or cost your thousands. Felix is purpose built.'} />
+                    <WorkingSteps step={'04'} heading={"Publish & get your\n" + "planning on point"} explain={'Building ddfgan enterprise doesn\'t need nightmare or cost your thousands. Felix is purpose built.'} />
                 </div>
             </div>
         </div>
