@@ -1,10 +1,11 @@
 .family-container {
     margin-top: 120px;
     height: 120vh;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 70vw;
     border-radius: 20px;
     padding: 20px;
+    background-color: #030e1e;
 }
 
 .family {
