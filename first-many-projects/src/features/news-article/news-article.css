@@ -53,8 +53,17 @@
     gap: 20px;
 }
 
+.article-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .article-img {
     background-image: url("../../assets/ArtilceImg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 240px;
     width: 300px;
     border-radius: 20px;
