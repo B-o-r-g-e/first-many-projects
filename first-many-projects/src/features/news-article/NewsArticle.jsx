@@ -22,8 +22,10 @@ const NewsArticle = () => (
                 <div className="article-container">
                     <article className="article-box">
                         <div className="article-img">
-                            <p>Analyse</p>
-                            <p>Marketing</p>
+                            <div className="article-img-categories">
+                                <p>Analyse</p>
+                                <p>Marketing</p>
+                            </div>
                         </div>
                         <div className="dateRead">
                             <div className="date">December 05, 2021</div>
@@ -32,14 +34,17 @@ const NewsArticle = () => (
                         <div className="article-body-container">
                             <h1>Detailed insights for your
                                 social media</h1>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the standard dummy.</p>
+                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has
+                                been the standard dummy.</p>
                             <p className="view-more ">View More</p>
                         </div>
                     </article>
                     <article className="article-box">
                         <div className="article-img">
-                            <p>Analyse</p>
-                            <p>Marketing</p>
+                            <div className="article-img-categories">
+                                <p>Analyse</p>
+                                <p>Marketing</p>
+                            </div>
                         </div>
                         <div className="dateRead">
                             <div className="date">December 05, 2021</div>
@@ -48,14 +53,17 @@ const NewsArticle = () => (
                         <div className="article-body-container">
                             <h1>Detailed insights for your
                                 social media</h1>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the standard dummy.</p>
+                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has
+                                been the standard dummy.</p>
                             <p className="view-more ">View More</p>
                         </div>
                     </article>
                     <article className="article-box">
                         <div className="article-img">
-                            <p>Analyse</p>
-                            <p>Marketing</p>
+                            <div className="article-img-categories">
+                                <p>Analyse</p>
+                                <p>Marketing</p>
+                            </div>
                         </div>
                         <div className="dateRead">
                             <div className="date">December 05, 2021</div>
@@ -64,7 +72,8 @@ const NewsArticle = () => (
                         <div className="article-body-container">
                             <h1>Detailed insights for your
                                 social media</h1>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the standard dummy.</p>
+                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has
+                                been the standard dummy.</p>
                             <p className="view-more ">View More</p>
                         </div>
                     </article>

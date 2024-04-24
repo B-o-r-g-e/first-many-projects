@@ -52,3 +52,32 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+
+.article-img {
+    background-image: url("../../assets/ArtilceImg1.png");
+    height: 240px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.article-img-categories {
+    gap: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+
+}
+
+.article-img-categories p {
+    background-color: white;
+    display: flex;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 13px;
+}
