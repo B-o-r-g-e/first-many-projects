@@ -1,7 +1,7 @@
 .family-container {
     margin-top: 120px;
-    height: 150vh;
-    border: 1px solid red;
+    height: 160vh;
+    /*border: 1px solid red;*/
     width: 70vw;
     border-radius: 20px;
     padding: 20px;
@@ -31,7 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 110px;
+    gap: 150px;
 }
 
 .modal-prev {
@@ -60,6 +60,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .dp {
@@ -90,6 +91,7 @@
     width: 30rem;
     text-align: center;
     margin-top: 10px;
+    color: #afafaf;
 }
 
 .new-line {
@@ -123,18 +125,30 @@
 
 .family-bottom-count h1 {
     width: auto;
+    color: #5956E9;
 }
 
 .family-bottom-count p {
     font-size: 0.8rem;
+    color: #afafaf;
 }
 
 .join {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+
+.join button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #4b4b4b;
+    color: white;
 }
 
 
