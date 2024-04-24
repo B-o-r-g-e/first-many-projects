@@ -103,3 +103,8 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.article-body-container h1 {
+    font-size: 1.3rem;
+    width: 85%;
+}
