@@ -31,7 +31,19 @@
     gap: 30px;
 }
 
+.modal-prev {
+    background-color: #9a9a9a;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.modal-prev img {
+    width: 10px;
+}
 
 
 
