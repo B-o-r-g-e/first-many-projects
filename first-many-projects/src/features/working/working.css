@@ -49,7 +49,35 @@
 }
 
 .working-left {
+
+}
+
+.each-content-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+}
+
+.each-content {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    border: 1px solid red;
+}
+
+.each-content h1 {
+    font-size: 25px;
+    font-weight: 900;
+    color: #d0d0d0;
+}
+
+.each-content h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33px;
+    width: ;
+}
+
+.each-content p {
+
 }

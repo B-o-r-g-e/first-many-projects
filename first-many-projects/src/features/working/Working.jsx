@@ -21,6 +21,31 @@ const Working = () => (
                             need nightmare or cost your thousands.
                             Felix is purpose built.</p>
                     </div>
+
+                    <div className="each-content">
+                        <h1>01</h1>
+                        <h2>Create your free account</h2>
+                        <p>Building ddfgan enterprisedoesn't
+                            need nightmare or cost your thousands.
+                            Felix is purpose built.</p>
+                    </div>
+
+                    <div className="each-content">
+                        <h1>01</h1>
+                        <h2>Create your free account</h2>
+                        <p>Building ddfgan enterprisedoesn't
+                            need nightmare or cost your thousands.
+                            Felix is purpose built.</p>
+                    </div>
+
+                    <div className="each-content">
+                        <h1>01</h1>
+                        <h2>Create your free account</h2>
+                        <p>Building ddfgan enterprisedoesn't
+                            need nightmare or cost your thousands.
+                            Felix is purpose built.</p>
+                    </div>
+
                 </div>
             </div>
         </div>
