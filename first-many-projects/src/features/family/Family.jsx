@@ -68,7 +68,6 @@ const Family = () => (
                     <p className={'join'}>Join 160,000+ small businesses like yours</p>
                     <button>Select a Plan</button>
                 </div>
-
             </div>
         </div>
     </div>
