@@ -97,3 +97,9 @@
     font-size: 0.9rem;
     color: #bebebe;
 }
+
+.article-body-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
