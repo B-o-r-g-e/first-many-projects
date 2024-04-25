@@ -67,7 +67,30 @@ const Footer = () => (
                     <div className="vertical-line"></div>
 
                     <div className="footer-right-right">
-                        <div className="plan-criteria"></div>
+                        <div className="plan-criteria">
+                            <img src={planCriteria} alt="icon"/>
+                            Social Set
+                        </div>
+                        <div className="plan-criteria">
+                            <img src={planCriteria} alt="icon"/>
+                            Social Set
+                        </div>
+                        <div className="plan-criteria">
+                            <img src={planCriteria} alt="icon"/>
+                            Social Set
+                        </div>
+                        <div className="plan-criteria">
+                            <img src={planCriteria} alt="icon"/>
+                            Social Set
+                        </div>
+                        <div className="plan-criteria">
+                            <img src={planCriteria} alt="icon"/>
+                            Social Set
+                        </div>
+                        <div className="plan-criteria">
+                            <img src={planCriteria} alt="icon"/>
+                            Social Set
+                        </div>
                     </div>
                 </div>
             </div>
