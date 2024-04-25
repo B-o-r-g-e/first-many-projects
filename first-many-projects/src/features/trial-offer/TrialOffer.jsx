@@ -1,6 +1,7 @@
 import React from 'react';
 import './trial-offer.css'
 import benefitIcon from '../../assets/benefitIcon.svg'
+import benefitImage from '../../assets/trialImage (2).png'
 
 const TrialOffer = () => (
     <div className="trial-offer-container">
@@ -29,7 +30,7 @@ const TrialOffer = () => (
             </div>
 
             <div className="trial-offer-right">
-                <img src="" alt=""/>
+                <img src={benefitImage} alt=""/>
             </div>
         </div>
     </div>
