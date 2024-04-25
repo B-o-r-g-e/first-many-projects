@@ -54,3 +54,9 @@
     background-color: #2F2F2F;
     color: white;
 }
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
