@@ -73,3 +73,10 @@
 .each-benefits img {
     width: 17px;
 }
+
+.trial-offer-right img {
+    width: 28rem;
+    position: absolute;
+    top: -60px;
+    right: -60px;
+}
