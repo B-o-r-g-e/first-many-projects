@@ -60,7 +60,7 @@ const Footer = () => (
                 <div className="footer-right">
                     <div className="footer-right-left">
                         <div className="popular">Popular</div>
-                        <p>Startup $<span>25</span></p>
+                        <p>Startup $<span className='startup-count'>25</span></p>
                         <button>Choose Plan</button>
                     </div>
 
