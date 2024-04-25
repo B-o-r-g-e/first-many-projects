@@ -23,6 +23,10 @@
 }
 
 .trial-offer-left h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 900;
+}
+
+.trial-offer-left p {
+    font-size: 0.9rem;
 }
