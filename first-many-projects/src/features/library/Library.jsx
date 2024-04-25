@@ -25,7 +25,7 @@ const Library = () => (
         <NewsArticle />
         <TrialOffer />
         <Tech />
-        {/*<Footer />*/}
+        <Footer />
     </div>
 )
 
