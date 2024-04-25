@@ -52,16 +52,16 @@ const Family = () => (
                         <p>In Business</p>
                     </div>
                     <div className="family-bottom-count">
-                        <h1>10 years</h1>
-                        <p>In Business</p>
+                        <h1>75,000+</h1>
+                        <p>Customers</p>
                     </div>
                     <div className="family-bottom-count">
-                        <h1>10 years</h1>
-                        <p>In Business</p>
+                        <h1>100k+</h1>
+                        <p>Monthly Blog Readers</p>
                     </div>
                     <div className="family-bottom-count">
-                        <h1>10 years</h1>
-                        <p>In Business</p>
+                        <h1>1.2m+</h1>
+                        <p>Social Followers</p>
                     </div>
                 </div>
                 <div className="join">
