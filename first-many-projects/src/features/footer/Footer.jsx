@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css'
+import planCriteria from '../../assets/planCriteria.png'
 
 const Footer = () => (
     <div className="footer-container">
@@ -65,7 +66,9 @@ const Footer = () => (
 
                     <div className="vertical-line"></div>
 
-                    <div className="footer-right-right"></div>
+                    <div className="footer-right-right">
+                        <div className="plan-criteria"></div>
+                    </div>
                 </div>
             </div>
         </div>
