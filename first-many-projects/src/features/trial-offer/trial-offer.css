@@ -1,0 +1,9 @@
+.trial-offer-container {
+    background-image: url("../../assets/trialImage (1).png");
+    height: 60vh;
+    width: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
