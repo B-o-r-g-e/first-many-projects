@@ -6,4 +6,12 @@
     background-position: center;
     background-size: cover;
     border-radius: 20px;
+    padding: 0 40px;
+}
+
+.trial-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
