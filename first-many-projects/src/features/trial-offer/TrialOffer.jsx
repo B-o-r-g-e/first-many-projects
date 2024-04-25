@@ -28,7 +28,9 @@ const TrialOffer = () => (
                 </div>
             </div>
 
-            <div className="trial-offer-right"></div>
+            <div className="trial-offer-right">
+                <img src="" alt=""/>
+            </div>
         </div>
     </div>
 )
