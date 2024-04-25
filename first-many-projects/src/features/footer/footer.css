@@ -1,11 +1,11 @@
 .footer-container {
-    margin-top: 100px;
+    margin-top: 70px;
     width: 70vw;
 }
 
 .footer {
     width: 100%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
 }
 
@@ -54,7 +54,7 @@ th {
     justify-content: center;
     width: 100%;
     border-radius: 20px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-color: #030E1E;
     /*gap: 20px;*/
     /*padding: 20px;*/
