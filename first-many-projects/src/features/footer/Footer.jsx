@@ -64,7 +64,7 @@ const Footer = () => (
                         <button>Choose Plan</button>
                     </div>
 
-                    <div className="vertical-line"></div>
+                    <div className="vertical-line footer-line"></div>
 
                     <div className="footer-right-right">
                         <div className="plan-criteria">
@@ -73,23 +73,23 @@ const Footer = () => (
                         </div>
                         <div className="plan-criteria">
                             <img src={planCriteria} alt="icon"/>
-                            Social Set
+                            150 posts per social
                         </div>
                         <div className="plan-criteria">
                             <img src={planCriteria} alt="icon"/>
-                            Social Set
+                            5 users
                         </div>
                         <div className="plan-criteria">
                             <img src={planCriteria} alt="icon"/>
-                            Social Set
+                            Phone Support
                         </div>
                         <div className="plan-criteria">
                             <img src={planCriteria} alt="icon"/>
-                            Social Set
+                            Planning & publishing
                         </div>
                         <div className="plan-criteria">
                             <img src={planCriteria} alt="icon"/>
-                            Social Set
+                            Analytics tools
                         </div>
                     </div>
                 </div>
