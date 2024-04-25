@@ -30,3 +30,14 @@
 .trial-offer-left p {
     font-size: 0.9rem;
 }
+
+.input-area {
+    display: flex;
+    position: relative;
+}
+
+.input-area input {
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+}
