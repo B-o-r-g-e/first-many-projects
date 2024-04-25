@@ -10,7 +10,8 @@
 }
 
 .footer-left {
-    width: 53%;
+    width: 50%;
+    border: 1px solid red;
 }
 
 table {
@@ -25,6 +26,7 @@ td {
 th, td {
     padding: 6px;
     text-align: left;
+    font-size: 15px;
 }
 
 th {
@@ -38,4 +40,16 @@ th {
     background-color: #DCDCDC;
     margin: 0 20px;
     display: inline-block; /* Ensures the line respects width and height */
+}
+
+.footer-right-container {
+    display: flex;
+    height: 100%;
+    width: 500px;
+}
+
+.footer-right {
+    display: flex;
+    width: 100%;
+    background-color: #030E1E;
 }
