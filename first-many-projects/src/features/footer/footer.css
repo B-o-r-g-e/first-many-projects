@@ -64,3 +64,14 @@ th {
     flex-direction: column;
 }
 
+.popular {
+    /*background-image: url("../../assets/Popularimage.png");*/
+    background-image: url("../../assets/trialImage (1).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 800;
+}
+
