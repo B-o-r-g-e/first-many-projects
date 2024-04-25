@@ -18,10 +18,10 @@
 
 .trial-offer-left {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
     width: 60%;
-    border: 1px solid red;
 }
 
 .trial-offer-left h1 {
@@ -57,14 +57,16 @@
 
 .benefits {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .each-benefits {
     display: flex;
     align-items: center;
     gap: 7px;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 .each-benefits img {
