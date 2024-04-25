@@ -1,0 +1,9 @@
+.tech-container {
+    margin-top: 200px;
+    width: 70vw;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    height: 23vh;
+    display: flex;
+    align-items: center;
+}
