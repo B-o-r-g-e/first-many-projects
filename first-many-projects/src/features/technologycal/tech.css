@@ -13,3 +13,13 @@
     justify-content: space-between;
     width: 100%;
 }
+
+.tech button {
+    background-color: #030C18;
+    color: #DCDCDC;
+    border: 1px solid #a2a2a2;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
