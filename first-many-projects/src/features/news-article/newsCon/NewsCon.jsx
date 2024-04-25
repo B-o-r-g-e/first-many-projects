@@ -6,7 +6,7 @@ const NewsCon = ({title}) => (
         <div className="article-img">
             <div className="article-img-categories">
                 <p>Analyse</p>
-                <p>Marketing</p>
+                <p className={'market'}>Marketing</p>
             </div>
         </div>
         <div className="dateRead">
