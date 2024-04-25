@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     width: 60%;
 }
 
@@ -32,11 +32,13 @@
 
 .trial-offer-left p {
     font-size: 0.9rem;
+    margin-bottom: 20px;
 }
 
 .input-area {
     display: flex;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .input-area input {
