@@ -1,6 +1,5 @@
 import React from 'react';
 import './tech.css'
-// import {Navbar} from "../../Components/index.js";
 
 const Tech = () => (
     <div className="tech-container">
