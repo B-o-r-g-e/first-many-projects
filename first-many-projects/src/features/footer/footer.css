@@ -63,7 +63,7 @@ th {
 .footer-right-left {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     align-items: start;
 }
 
@@ -86,4 +86,7 @@ th {
     font-weight: 600;
 }
 
-
+.startup-count {
+    font-size: 3rem;
+    font-weight: 900;
+}
