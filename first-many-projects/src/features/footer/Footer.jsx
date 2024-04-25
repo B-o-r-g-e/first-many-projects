@@ -55,7 +55,19 @@ const Footer = () => (
 
             <div className="vertical-line"></div>
 
-            <div className="footer-right"></div>
+            <div className="footer-right-container">
+                <div className="footer-right">
+                    <div className="footer-right-left">
+                        <div className="popular">Popular</div>
+                        <p>Startup $<span>25</span></p>
+                        <button>Choose Plan</button>
+                    </div>
+
+                    <div className="vertical-line"></div>
+
+                    <div className="footer-right-right"></div>
+                </div>
+            </div>
         </div>
     </div>
 )
