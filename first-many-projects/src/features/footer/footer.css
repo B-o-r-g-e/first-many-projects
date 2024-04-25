@@ -63,7 +63,7 @@ th {
 .footer-right-left {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /*gap: 10px;*/
     align-items: start;
 }
 
@@ -74,7 +74,7 @@ th {
     background-position: center;
     /*background-size: cover;*/
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 10px 25px;
     font-weight: 800;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@ th {
 }
 
 .footer-right-left p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
