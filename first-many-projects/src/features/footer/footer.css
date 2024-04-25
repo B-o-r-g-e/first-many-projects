@@ -56,12 +56,14 @@ th {
     border-radius: 20px;
     border: 1px solid red;
     background-color: #030E1E;
+    gap: 20px;
     /*padding: 20px;*/
 }
 
 .footer-right-left {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .popular {
