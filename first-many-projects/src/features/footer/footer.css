@@ -1,7 +1,14 @@
 .footer-container {
     margin-top: 100px;
+    width: 70vw;
 }
 
 .footer {
-    width: 60%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.footer-left {
+    width: 53%;
+    border: 1px solid red;
 }
