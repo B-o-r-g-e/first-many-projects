@@ -19,7 +19,7 @@
 }
 
 .article-img-categories {
-    gap: 10px;
+    gap: 5px;
     display: flex;
     position: absolute;
     bottom: 13px;
