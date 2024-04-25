@@ -5,7 +5,7 @@ import logo from '../../assets/logo.svg'
 const Tech = () => (
     <div className="tech-container">
         <div className="tech">
-            <img className="tech-logo" src={logo} alt="Our Logo" />
+            <img src={logo} alt="Our Logo" />
             <button>See our Case Studies</button>
         </div>
     </div>
