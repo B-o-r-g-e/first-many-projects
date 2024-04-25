@@ -56,7 +56,7 @@ th {
     border-radius: 20px;
     border: 1px solid red;
     background-color: #030E1E;
-    gap: 20px;
+    /*gap: 20px;*/
     /*padding: 20px;*/
 }
 
@@ -89,4 +89,14 @@ th {
 .startup-count {
     font-size: 3rem;
     font-weight: 900;
+}
+
+.footer-right-left button {
+    border: none;
+    padding: 20px 70px 20px 20px;
+    background-color: #263a59;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px;
 }
