@@ -207,4 +207,8 @@
     .family-bottom-count-container h1 {
         width: 100px;
     }
+
+    .join p {
+        font-size: 0.9rem;
+    }
 }
