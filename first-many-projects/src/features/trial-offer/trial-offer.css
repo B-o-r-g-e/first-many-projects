@@ -126,4 +126,10 @@
         font-size: 0.8rem;
         width: 80%;
     }
+
+    .input-area input {
+        padding: 18px 80px 18px 20px;
+        border: none;
+        border-radius: 50px;
+    }
 }
