@@ -436,4 +436,16 @@
     .image1 {
         display: none;
     }
+
+    .first-line {
+        display: none;
+    }
+
+    .second-line {
+        display: none;
+    }
+
+    .third-line {
+        display: none;
+    }
 }
