@@ -139,5 +139,20 @@ th {
 }
 
 @media screen and (max-width: 550px) {
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .footer-left {
+        width: 100%;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    th, td {
+        padding: 10px;
+    }
 }
