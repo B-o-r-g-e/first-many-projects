@@ -31,4 +31,8 @@
     .simple-container-header h1 {
         font-size: 1.6rem;
     }
+
+    .simple-container-body {
+        grid-template-columns: 1fr;
+    }
 }
