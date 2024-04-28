@@ -9,7 +9,9 @@
 
 .navbar-nav {
     display: flex;
-    gap: 3rem}
+    gap: 3rem;
+    cursor: pointer;
+}
 
 ul li {
     list-style: none;
@@ -57,10 +59,11 @@ ul li {
     }
 
     .library-logo img {
-        height: 15px;
+        height: 1rem;
     }
 
     .navbar-nav {
-        gap: 10px;
+        gap: 0.9rem;
+        font-size: 0.8rem;
     }
 }
