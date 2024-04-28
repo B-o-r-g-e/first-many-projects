@@ -428,4 +428,8 @@
     .love img {
         display: none;
     }
+
+    .timer {
+        display: none;
+    }
 }
