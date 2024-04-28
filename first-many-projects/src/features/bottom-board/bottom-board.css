@@ -421,5 +421,7 @@
 }
 
 @media screen and (max-width: 550px) {
-
+    .BottomBoard-top-left-logo img {
+        display: none;
+    }
 }
