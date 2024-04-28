@@ -88,7 +88,17 @@
 }
 
 @media screen and (max-width: 550px) {
+    .working {
+        display: inline-block flex;
+        gap: 20px;
+    }
 
+    .each-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
