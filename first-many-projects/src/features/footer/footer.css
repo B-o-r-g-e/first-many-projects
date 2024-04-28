@@ -170,6 +170,18 @@ th {
         font-size: 0.7rem;
     }
 
+    .footer-right-left p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .startup-count {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+
+
     .footer-right-right {
         /*display: none;*/
     }
