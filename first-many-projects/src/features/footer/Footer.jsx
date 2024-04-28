@@ -54,7 +54,7 @@ const Footer = () => (
                 </table>
             </div>
 
-            <div className="vertical-line"></div>
+            <div className="vertical-line top-vert"></div>
 
             <div className="footer-right-container">
                 <div className="footer-right">

@@ -148,7 +148,7 @@ th {
         width: 100%;
     }
 
-    .vertical-line {
+    .top-vert {
         display: none;
     }
 
@@ -162,7 +162,7 @@ th {
     }
 
     .footer-line {
-        display: none;
+        /*display: none;*/
     }
 
     .popular {
@@ -186,6 +186,6 @@ th {
     }
 
     .footer-right-right {
-        /*display: none;*/
+        z-index: 100;
     }
 }
