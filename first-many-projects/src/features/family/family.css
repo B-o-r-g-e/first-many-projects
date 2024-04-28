@@ -172,5 +172,7 @@
 }
 
 @media screen and (max-width: 550px) {
-
+    .family-top h1 {
+        font-size: 1.5rem;
+    }
 }
