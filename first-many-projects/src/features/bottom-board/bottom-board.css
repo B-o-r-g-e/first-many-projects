@@ -421,11 +421,18 @@
 }
 
 @media screen and (max-width: 550px) {
+    .BottomBoard-bottom-second-layer-left {
+        display: flex;
+        /*flex-direction: column;*/
+        align-items: center;
+        justify-content: center;
+    }
+
     .BottomBoard-top-left-logo img {
         display: none;
     }
 
-    .love img {
+    .love {
         display: none;
     }
 
