@@ -132,4 +132,9 @@
         border: none;
         border-radius: 50px;
     }
+
+    .each-benefits {
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
 }
