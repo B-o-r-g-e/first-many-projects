@@ -68,5 +68,16 @@
 }
 
 @media screen and (max-width: 550px) {
+    .article-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 
+    .news-article-top {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
 }

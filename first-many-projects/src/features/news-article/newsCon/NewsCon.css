@@ -38,8 +38,9 @@
 
 .dateRead {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     font-size: 0.9rem;
+    gap: 6rem;
     color: #bebebe;
     /*margin: 10px 0;*/
     padding: 0 5px;
@@ -75,4 +76,26 @@
 
 .second-art .article-img {
     background-image: url("../../../assets/secondart.png");
+}
+
+
+@media screen and (max-width: 1050px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 550px) {
+    .dateRead {
+        display: flex;
+        /*justify-content: center;*/
+        /*gap: 40px;*/
+        /*align-items: center;*/
+    }
+
+    .article-box {
+        width: 330px;
+    }
 }
