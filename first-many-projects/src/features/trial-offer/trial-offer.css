@@ -117,5 +117,13 @@
 }
 
 @media screen and (max-width: 550px) {
+    .trial-offer-left h1 {
+        font-size: 2rem;
+    }
 
+    .trial-offer-left p {
+        text-align: center;
+        font-size: 0.8rem;
+        width: 80%;
+    }
 }
