@@ -175,4 +175,20 @@
     .family-top h1 {
         font-size: 1.5rem;
     }
+
+    .modal {
+        gap: 70px;
+    }
+
+    .name-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .position {
+
+    }
+    .details {
+        display: none;
+    }
 }
