@@ -53,5 +53,20 @@
 }
 
 @media screen and (max-width: 550px) {
+    .BrandBusiness-container {
+        left: -30px;
+        position: relative;
 
+    }
+
+    .schedule {
+        position: absolute;
+        width: 450px;
+        top: 40px;
+    }
+
+    .trusted {
+        width: 270px;
+        top: 290px;
+    }
 }
