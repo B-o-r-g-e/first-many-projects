@@ -196,4 +196,15 @@
         font-size: 1.3rem;
         width: 20rem;
     }
+
+    .family-bottom-count-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .family-bottom-count-container h1 {
+        width: 100px;
+    }
 }
