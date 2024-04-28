@@ -160,4 +160,17 @@ th {
     .footer-right-container {
         width: 100%;
     }
+
+    .footer-line {
+        display: none;
+    }
+
+    .popular {
+        padding: 10px 20px;
+        font-size: 0.7rem;
+    }
+
+    .footer-right-right {
+        /*display: none;*/
+    }
 }
