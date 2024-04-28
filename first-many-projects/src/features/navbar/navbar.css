@@ -52,6 +52,10 @@ ul li {
 }
 
 @media screen and (max-width: 550px) {
+    .common {
+        padding: 2rem;
+    }
+
     .library-logo img {
         height: 15px;
     }
