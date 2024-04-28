@@ -52,5 +52,11 @@ ul li {
 }
 
 @media screen and (max-width: 550px) {
+    .library-logo img {
+        height: 25px;
+    }
 
+    .navbar-nav {
+        gap: 20px;
+    }
 }

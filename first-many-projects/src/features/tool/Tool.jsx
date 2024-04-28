@@ -1,7 +1,6 @@
 import React from 'react';
 import './tool.css'
 import listIcon from '../../assets/list-icon.png';
-// import {Navbar} from "../../Components/index.js";
 
 const Tool = () => (
     <div className="tool-container common">
