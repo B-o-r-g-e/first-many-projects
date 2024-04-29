@@ -171,6 +171,16 @@
     .family-top h1 {
         font-size: 1.7rem;
     }
+
+    .name,
+    .position {
+        font-size: 0.8rem;
+    }
+
+    .details {
+        width: 35vw;
+        font-size: 0.7rem;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -190,6 +200,7 @@
     .position {
 
     }
+
     .details {
         display: none;
     }
