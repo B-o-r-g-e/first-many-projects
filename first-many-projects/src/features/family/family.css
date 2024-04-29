@@ -188,11 +188,17 @@
 
     .family-bottom h1 {
         font-size: 1rem;
-        /*width: 20rem;*/
+    }
+
+    .business {
+        font-size: 1.9rem;
+        width: 20rem;
     }
 
     .family-bottom-count-container {
         justify-content: center;
+        gap: 30px;
+        white-space: nowrap;
     }
 }
 
