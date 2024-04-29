@@ -181,6 +181,10 @@
         width: 35vw;
         font-size: 0.7rem;
     }
+
+    .modal {
+        gap: 60px;
+    }
 }
 
 @media screen and (max-width: 550px) {
