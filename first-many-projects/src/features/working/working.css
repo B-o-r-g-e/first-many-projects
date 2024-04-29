@@ -85,6 +85,10 @@
         gap: 2rem;
         justify-items: center;
     }
+
+    .each-content-container {
+
+    }
 }
 
 @media screen and (max-width: 550px) {
