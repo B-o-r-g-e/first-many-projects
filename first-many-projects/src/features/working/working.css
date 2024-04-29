@@ -91,9 +91,11 @@
     }
 }
 
-/*@media (min-width: 601px) and (max-width: 680px) {*/
-/*    */
-/*}*/
+@media (min-width: 601px) and (max-width: 680px) {
+    .each-content-container {
+        gap: 20px;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .working {
