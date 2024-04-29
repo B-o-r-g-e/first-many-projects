@@ -87,11 +87,15 @@
     }
 
     .each-content-container {
-
+        margin-left: -20px;
     }
 }
 
-@media screen and (max-width: 550px) {
+/*@media (min-width: 601px) and (max-width: 680px) {*/
+/*    */
+/*}*/
+
+@media screen and (max-width: 600px) {
     .working {
         display: inline-block flex;
         gap: 20px;
