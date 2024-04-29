@@ -167,6 +167,41 @@
 
 }
 
+@media (min-width: 701px) and (max-width: 840px) {
+    .family-top h1 {
+        font-size: 1.7rem;
+    }
+
+    .name,
+    .position {
+        font-size: 0.8rem;
+    }
+
+    .details {
+        width: 35vw;
+        font-size: 0.7rem;
+    }
+
+    .modal {
+        gap: 60px;
+    }
+
+    .family-bottom h1 {
+        font-size: 1rem;
+    }
+
+    .business {
+        font-size: 1.9rem;
+        width: 20rem;
+    }
+
+    .family-bottom-count-container {
+        justify-content: center;
+        gap: 30px;
+        white-space: nowrap;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .family-top h1 {
         font-size: 1.7rem;
