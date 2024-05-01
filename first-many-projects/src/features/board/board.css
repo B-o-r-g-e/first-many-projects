@@ -85,6 +85,17 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .Board-container h1 {
+        width: 23rem;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 60px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .Board-container h1 {
         width: 25rem;

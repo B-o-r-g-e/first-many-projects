@@ -333,6 +333,27 @@
 
 
 
+@media (min-width: 1051px) and (max-width: 1170px){
+    .stories img {
+        display: flex;
+    }
+
+    .post,
+    .blog {
+        display: none;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1300px){
+    .BottomBoard-top-left-logo {
+        display: none;
+    }
+
+    .love {
+        display: none;
+    }
+}
+
 
 
 @media screen and (max-width: 1050px) {
@@ -420,7 +441,11 @@
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 570px) {
     .BottomBoard-bottom-second-layer-left {
         display: flex;
         /*flex-direction: column;*/
