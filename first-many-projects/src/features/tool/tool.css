@@ -1,8 +1,15 @@
 .ToolBrand {
     display: flex;
+    flex-wrap: wrap;
     width: 80vw;
     align-items: center;
     margin-bottom: 80px;
+    border: 1px solid red;
+}
+
+.ToolBrand div {
+    display: flex;
+    flex: 1;
 }
 
 .tool-container {

@@ -3,7 +3,8 @@
     flex-direction: column;
     position: relative;
     flex: 1;
-    height: 480px;
+    height: 70vh;
+    border: 1px solid red;
 }
 
 .chart {
@@ -24,6 +25,15 @@
     position: absolute;
     left: -20px;
     bottom: 0;
+}
+
+
+@media (min-width: 1051px) and (max-width: 1300px) {
+
+}
+
+@media (min-width: 701px) and (max-width: 1050px) {
+
 }
 
 @media screen and (max-width: 1050px) {
@@ -53,11 +63,11 @@
 }
 
 @media screen and (max-width: 550px) {
-    .BrandBusiness-container {
-        left: -30px;
-        position: relative;
+    /*.BrandBusiness-container {*/
+    /*    left: -30px;*/
+    /*    position: relative;*/
 
-    }
+    /*}*/
 
     .schedule {
         position: absolute;
