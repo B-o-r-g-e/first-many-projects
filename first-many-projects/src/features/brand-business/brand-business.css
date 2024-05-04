@@ -1,7 +1,10 @@
 .BrandBusiness-container {
     height: 450px;
     width: 500px;
-    /*height: 70vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     /*border: 1px solid red;*/
 }
 
@@ -27,9 +30,6 @@
 .schedule {
     position: absolute;
     width: 450px;
-    /*margin-top: 20px;*/
-    /*top: 40px;*/
-    /*right: 30px;*/
 }
 
 .trusted {
@@ -78,37 +78,36 @@
     }
 }
 
+@media screen and (min-width: 700px) {
+    .BrandBusiness {
+        height: 450px;
+    }
+}
+
 @media (min-width: 551px) and (max-width: 700px) {
     .chart {
-        /*display: none;*/
+
     }
 
     .schedule {
-        /*display: none;*/
+
     }
 
     .trusted {
-        /*display: none;*/
+
     }
 
     .BrandBusiness-container {
-        /*display: none;*/
+
     }
 
     .BrandBusiness {
-        /*display: none;*/
-        /*flex-direction: column;*/
+
     }
 }
 
 
 @media screen and (max-width: 550px) {
-    /*.BrandBusiness-container {*/
-    /*    left: -30px;*/
-    /*    position: relative;*/
-
-    /*}*/
-
     .schedule {
         position: absolute;
         width: 450px;
