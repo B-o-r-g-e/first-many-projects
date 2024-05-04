@@ -1,16 +1,16 @@
 .ToolBrand {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     width: 80vw;
     align-items: center;
     margin-bottom: 80px;
     /*border: 1px solid red;*/
 }
 
-.ToolBrand div {
-    display: flex;
-    flex: 1;
-}
+/*.ToolBrand div {*/
+/*    display: flex;*/
+/*    flex: 1;*/
+/*}*/
 
 .tool-container {
     display: flex;
@@ -86,6 +86,14 @@
         bottom: -20px;
     }
 }
+
+@media (min-width: 551px) and (max-width: 699px) {
+    .ToolBrand {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 @media screen and (max-width: 550px) {
     .tool-container h1 {

@@ -1,8 +1,8 @@
 .BrandBusiness-container {
     height: 450px;
-    /*height: 70vh;*/
     width: 500px;
-    border: 1px solid red;
+    /*height: 70vh;*/
+    /*border: 1px solid red;*/
 }
 
 .BrandBusiness {
@@ -12,8 +12,8 @@
     flex-direction: column;
     position: relative;
     flex: 1;
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 500px;
     border: 1px solid red;
 }
 
@@ -77,6 +77,30 @@
         bottom: -450px;
     }
 }
+
+@media (min-width: 551px) and (max-width: 700px) {
+    .chart {
+        /*display: none;*/
+    }
+
+    .schedule {
+        /*display: none;*/
+    }
+
+    .trusted {
+        /*display: none;*/
+    }
+
+    .BrandBusiness-container {
+        /*display: none;*/
+    }
+
+    .BrandBusiness {
+        /*display: none;*/
+        /*flex-direction: column;*/
+    }
+}
+
 
 @media screen and (max-width: 550px) {
     /*.BrandBusiness-container {*/
