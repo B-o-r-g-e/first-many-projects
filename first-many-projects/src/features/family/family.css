@@ -167,12 +167,6 @@
 
 }
 
-@media (min-width: 841px) and (max-width: 1300px){
-    .modal {
-        /*gap: 9rem;*/
-    }
-}
-
 @media (min-width: 701px) and (max-width: 840px) {
     .family-top h1 {
         font-size: 1.7rem;
@@ -186,10 +180,6 @@
     .details {
         width: 35vw;
         font-size: 0.7rem;
-    }
-
-    .modal {
-        /*gap: 60px;*/
     }
 
     .family-bottom h1 {
@@ -223,10 +213,6 @@
         font-size: 0.7rem;
     }
 
-    .modal {
-        /*gap: 60px;*/
-    }
-
     .family-bottom h1 {
         font-size: 1rem;
     }
@@ -253,10 +239,6 @@
 @media screen and (max-width: 699px) {
     .family-top h1 {
         font-size: 1.5rem;
-    }
-
-    .modal {
-        /*gap: 70px;*/
     }
 
     .name-container {
