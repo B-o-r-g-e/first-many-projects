@@ -74,9 +74,16 @@
         align-items: center;
     }
 
+    .news-article-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
     .article-container {
         grid-template-columns: 1fr;
         gap: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .news-article-top {
