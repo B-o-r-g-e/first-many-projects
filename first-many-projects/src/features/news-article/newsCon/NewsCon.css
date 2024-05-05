@@ -39,11 +39,9 @@
 
 .dateRead {
     display: flex;
-    /*justify-content: space-between;*/
     font-size: 0.9rem;
     gap: 6rem;
     color: #bebebe;
-    /*margin: 10px 0;*/
     padding: 0 5px;
 }
 
