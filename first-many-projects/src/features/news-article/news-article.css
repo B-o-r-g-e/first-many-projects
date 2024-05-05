@@ -101,25 +101,28 @@
 }
 
 @media screen and (max-width: 550px) {
-    .news-article-container {
-        justify-content: center;
-        align-items: center;
-    }
-
+    .news-article-container,
     .news-article {
         justify-content: center;
         align-items: center;
     }
 
+    .news-article-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
     .article-container {
         grid-template-columns: 1fr;
         gap: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .news-article-top {
         display: flex;
-        justify-content: start;
-        align-items: start;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         gap: 20px;
     }
