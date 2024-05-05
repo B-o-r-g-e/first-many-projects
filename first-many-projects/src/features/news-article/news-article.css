@@ -67,7 +67,7 @@
 
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 900px) {
     .news-article-container,
     .news-article {
         justify-content: center;
