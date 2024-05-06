@@ -26,11 +26,18 @@ ul li {
 
 .cart-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     background-color: #5956E9;
     padding: 10px;
     height: 35px;
     cursor: pointer;
+    border: none;
+}
+
+.cart-container img {
+    width: 1.1rem;
 }
 
 .sign {

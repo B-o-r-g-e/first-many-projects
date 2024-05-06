@@ -17,12 +17,12 @@ const NavBar = () => (
         </ul>
 
         <div className="cart-signIn">
-            <div className="cart-container">
+            <button className="cart-container">
                 <img src={cart} alt="cart"/>
-            </div>
-            <div className="sign-container">
+            </button>
+            <button className="sign-container">
                 <div className="sign">Sign In</div>
-            </div>
+            </button>
         </div>
     </nav>
 )
