@@ -1,12 +1,12 @@
 import React from 'react';
-import './CreateAccount.css'
+import './ContactUs.css'
 
-const CreateAccount = () => {
+const ContactUs = () => {
     return (
-        <div className="createAccount">
+        <div className="contactUs">
             This is the CreateAccount
         </div>
     )
 }
 
-export default CreateAccount;
+export default ContactUs;
