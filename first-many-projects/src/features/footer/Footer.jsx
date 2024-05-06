@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css'
 import planCriteria from '../../assets/planCriteria.png'
+import {Link} from "react-router-dom";
 
 const Footer = () => (
     <div className="footer-container">
@@ -61,7 +62,9 @@ const Footer = () => (
                     <div className="footer-right-left">
                         <div className="popular">Popular</div>
                         <p>Startup  $<span className='startup-count'>25</span></p>
-                        <button>Choose Plan</button>
+                        <Link to='/CreateAccount'>
+                            <button>Choose Plan</button>
+                        </Link>
                     </div>
 
                     <div className="vertical-line footer-line"></div>
