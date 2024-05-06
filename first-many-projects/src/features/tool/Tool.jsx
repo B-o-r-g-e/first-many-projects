@@ -1,6 +1,7 @@
 import React from 'react';
 import './tool.css'
 import listIcon from '../../assets/list-icon.png';
+import {Link} from "react-router-dom";
 
 const Tool = () => (
     <div className="tool-container common" id={'tool'}>
@@ -20,7 +21,9 @@ const Tool = () => (
                 The Future of Writing Blog Articles
             </div>
         </div>
-        <button>Get Started</button>
+        <Link to="/CreateAccount">
+            <button>Get Started</button>
+        </Link>
     </div>
 )
 
