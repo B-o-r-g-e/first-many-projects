@@ -46,6 +46,7 @@
     border-radius: 50px;
     border: none;
     color: #2F2F2F;
+    cursor: pointer;
 }
 
 .working-left {

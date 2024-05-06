@@ -1,6 +1,7 @@
 import React from 'react';
 import './working.css'
 import WorkingSteps from './WorkingSteps/WorkingSteps.jsx'
+import {Link} from "react-router-dom";
 
 const Working = () => (
     <div className="working-container">
@@ -10,7 +11,9 @@ const Working = () => (
                     We Work For Our <br/> Customers</h1>
                 <p>We currently support Facebook, Instagram,
                     LinkedIn and Twitter. More to come.</p>
-                <button>Get Started</button>
+                <Link to='/CreateAccount'>
+                    <button>Get Started</button>
+                </Link>
             </div>
 
             <div className="working-left">
