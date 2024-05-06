@@ -9,6 +9,7 @@ import CreateAccount from "./innerFuncs/createAccount/CreateAccount.jsx";
 import ContactUs from "./innerFuncs/contactUs/ContactUs.jsx";
 import Plans from "./innerFuncs/plans/Plans.jsx";
 import News from "./innerFuncs/news/News.jsx";
+import CaseStudy from "./innerFuncs/caseStudy/CaseStudy.jsx";
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path={"/contactUs"} element={<ContactUs />} />
             <Route path={"/plans"} element={<Plans />} />
             <Route path={"/news"} element={<News />} />
+            <Route path={"/caseStudy"} element={<CaseStudy />} />
         </Routes>
     )
 }
