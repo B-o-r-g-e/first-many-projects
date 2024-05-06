@@ -3,6 +3,13 @@ import './navbar.css'
 import logo from "../../assets/logo.svg";
 import cart from "../../assets/cart.svg"
 
+
+
+
+// const cart = () => {
+//
+// }
+
 const NavBar = () => (
     <nav className="navbar navbar-container common">
         <div className="library-logo gpt3__navbar-links__logo">
