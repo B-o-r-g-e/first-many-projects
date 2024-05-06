@@ -1,6 +1,7 @@
 import React from 'react';
 import './news-article.css'
 import NewsCon from "./newsCon/NewsCon.jsx";
+import {Link} from "react-router-dom";
 
 const NewsArticle = () => (
     <div className="news-article-container" id={'blog'}>
@@ -14,7 +15,9 @@ const NewsArticle = () => (
                         flexability.</p>
                 </div>
                 <div className="news-article-right">
-                    <button>See More News</button>
+                    <Link to="/News">
+                        <button>See More News</button>
+                    </Link>
                 </div>
             </div>
 
