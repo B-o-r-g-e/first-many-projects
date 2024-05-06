@@ -1,7 +1,7 @@
 import React from 'react';
-import './SignIn.css'
+import './CreateAccount.css'
 
-const SignIn = () => {
+const CreateAccount = () => {
     return (
         <div className="signIn">
             This is the SignIn
@@ -9,4 +9,4 @@ const SignIn = () => {
     )
 }
 
-export default SignIn;
+export default CreateAccount;
