@@ -3,7 +3,7 @@ import './CreateAccount.css'
 
 const CreateAccount = () => {
     return (
-        <div className="signIn">
+        <div className="createAccount">
             This is the SignIn
         </div>
     )
