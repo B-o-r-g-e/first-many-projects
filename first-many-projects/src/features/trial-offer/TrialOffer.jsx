@@ -2,6 +2,7 @@ import React from 'react';
 import './trial-offer.css'
 import benefitIcon from '../../assets/benefitIcon.svg'
 import benefitImage from '../../assets/trialImage (2).png'
+import {Link} from "react-router-dom";
 
 const TrialOffer = () => (
     <div className="trial-offer-container">
@@ -11,7 +12,9 @@ const TrialOffer = () => (
                 <p>Felix can help bring your dream website to life with ease.</p>
                 <div className="input-area">
                     <input type="text" placeholder={'Enter your Email'}/>
-                    <button>start</button>
+                    <Link to="/CreateAccount">
+                        <button>start</button>
+                    </Link>
                 </div>
                 <div className="benefits">
                     <div className="each-benefits">
