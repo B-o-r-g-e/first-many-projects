@@ -8,9 +8,11 @@ import {Link} from "react-router-dom";
 
 const NavBar = () => (
     <nav className="navbar navbar-container common">
-        <div className="library-logo gpt3__navbar-links__logo">
-            <img src={logo} alt="logo"/>
-        </div>
+        <Link to="/">
+            <div className="library-logo gpt3__navbar-links__logo">
+                <img src={logo} alt="logo"/>
+            </div>
+        </Link>
 
         <ul className="navbar-nav">
             <li className="nav-item"><a href={"#home"}>Home</a></li>
@@ -26,9 +28,9 @@ const NavBar = () => (
                 </button>
             </Link>
             <Link to="/SignIn">
-                {/*<div className="sign-container">*/}
+                <div className="sign-container">
                     <button className="sign">Sign In</button>
-                {/*</div>*/}
+                </div>
             </Link>
         </div>
     </nav>
