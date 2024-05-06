@@ -20,9 +20,9 @@ const NavBar = () => (
             <button className="cart-container">
                 <img src={cart} alt="cart"/>
             </button>
-            <button className="sign-container">
-                <div className="sign">Sign In</div>
-            </button>
+            <div className="sign-container">
+                <button className="sign">Sign In</button>
+            </div>
         </div>
     </nav>
 )
