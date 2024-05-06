@@ -5,6 +5,7 @@ import chevronRight from '../../assets/chevron-right.png'
 import dp from '../../assets/dp.png'
 import dpIcon from '../../assets/dpIcon.png'
 import star from '../../assets/Star.png'
+import {Link} from "react-router-dom";
 
 const Family = () => (
     <div className="family-container">
@@ -66,9 +67,9 @@ const Family = () => (
                 </div>
                 <div className="join">
                     <p>Join 160,000+ small businesses like yours</p>
-                    <link to="/PLans">
+                    <Link to="/Plans">
                         <button>Select a Plan</button>
-                    </link>
+                    </Link>
                 </div>
             </div>
         </div>
