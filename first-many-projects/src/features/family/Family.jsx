@@ -66,7 +66,9 @@ const Family = () => (
                 </div>
                 <div className="join">
                     <p>Join 160,000+ small businesses like yours</p>
-                    <button>Select a Plan</button>
+                    <link to="/PLans">
+                        <button>Select a Plan</button>
+                    </link>
                 </div>
             </div>
         </div>
