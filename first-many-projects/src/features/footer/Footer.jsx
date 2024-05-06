@@ -56,7 +56,7 @@ const Footer = () => (
 
             <div className="vertical-line top-vert"></div>
 
-            <div className="footer-right-container">
+            <div className="footer-right-container" id={'pricing'}>
                 <div className="footer-right">
                     <div className="footer-right-left">
                         <div className="popular">Popular</div>

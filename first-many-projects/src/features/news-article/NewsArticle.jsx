@@ -3,7 +3,7 @@ import './news-article.css'
 import NewsCon from "./newsCon/NewsCon.jsx";
 
 const NewsArticle = () => (
-    <div className="news-article-container">
+    <div className="news-article-container" id={'blog'}>
         <div className="news-article">
             <div className="news-article-top">
                 <div className="news-article-left">

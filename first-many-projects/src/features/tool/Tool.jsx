@@ -3,7 +3,7 @@ import './tool.css'
 import listIcon from '../../assets/list-icon.png';
 
 const Tool = () => (
-    <div className="tool-container common">
+    <div className="tool-container common" id={'tool'}>
         <h1>The Tool That Feels Like a..</h1>
         <p>Building an enterprise level site doesn't need nightmare or cost your thousands. Felix is purpose built for ease of use and complete flexability to create even the most powerful of products.</p>
         <div className="tool-list-container">
