@@ -1,5 +1,6 @@
 import React from "react";
 import "./simpleContents.css";
+import {Link} from "react-router-dom";
 
 const SimpleContents = ({categories, titles, theIcon}) => {
     return (
@@ -17,7 +18,9 @@ const SimpleContents = ({categories, titles, theIcon}) => {
 
             <div className="simple-container-body-second">
                 <img src={theIcon} alt="icon"/>
-                <button>Get Started</button>
+                <Link to="/CreateAccount">
+                    <button>Get Started</button>
+                </Link>
             </div>
         </div>
     )
