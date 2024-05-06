@@ -2,6 +2,7 @@ import React from 'react';
 import './navbar.css'
 import logo from "../../assets/logo.svg";
 import cart from "../../assets/cart.svg"
+import {Link} from "react-router-dom";
 
 
 
@@ -24,12 +25,16 @@ const NavBar = () => (
         </ul>
 
         <div className="cart-signIn">
-            <button className="cart-container">
-                <img src={cart} alt="cart"/>
-            </button>
-            <div className="sign-container">
-                <button className="sign">Sign In</button>
-            </div>
+            <Link to="/Cart">
+                <button className="cart-container">
+                    <img src={cart} alt="cart"/>
+                </button>
+            </Link>
+            <Link to="/SignIn">
+                {/*<div className="sign-container">*/}
+                    <button className="sign">Sign In</button>
+                {/*</div>*/}
+            </Link>
         </div>
     </nav>
 )
