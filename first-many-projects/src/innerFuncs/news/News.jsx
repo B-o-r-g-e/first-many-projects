@@ -1,12 +1,12 @@
 import React from 'react';
-import './Plans.css'
+import './News.css'
 
-const Plans = () => {
+const News = () => {
     return (
-        <div className="plans">
-            This is the Plans
+        <div className="news">
+            This is the News
         </div>
     )
 }
 
-export default Plans;
+export default News;

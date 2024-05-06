@@ -8,6 +8,7 @@ import SignIn from "./innerFuncs/signIn/SignIn.jsx";
 import CreateAccount from "./innerFuncs/createAccount/CreateAccount.jsx";
 import ContactUs from "./innerFuncs/contactUs/ContactUs.jsx";
 import Plans from "./innerFuncs/plans/Plans.jsx";
+import News from "./innerFuncs/news/News.jsx";
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
             <Route path={"/createAccount"} element={<CreateAccount />} />
             <Route path={"/contactUs"} element={<ContactUs />} />
             <Route path={"/plans"} element={<Plans />} />
+            <Route path={"/news"} element={<News />} />
         </Routes>
     )
 }
