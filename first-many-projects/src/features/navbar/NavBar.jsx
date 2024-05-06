@@ -6,11 +6,6 @@ import {Link} from "react-router-dom";
 
 
 
-
-// const cart = () => {
-//
-// }
-
 const NavBar = () => (
     <nav className="navbar navbar-container common">
         <div className="library-logo gpt3__navbar-links__logo">
