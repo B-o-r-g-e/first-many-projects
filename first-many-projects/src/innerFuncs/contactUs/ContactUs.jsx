@@ -4,7 +4,7 @@ import './ContactUs.css'
 const ContactUs = () => {
     return (
         <div className="contactUs">
-            This is the CreateAccount
+            This is the contactUs
         </div>
     )
 }

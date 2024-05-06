@@ -6,6 +6,7 @@ import Home from "./home/Home.jsx";
 import Cart from "./innerFuncs/cart/Cart.jsx"
 import SignIn from "./innerFuncs/signIn/SignIn.jsx";
 import CreateAccount from "./innerFuncs/createAccount/CreateAccount.jsx";
+import ContactUs from "./innerFuncs/contactUs/ContactUs.jsx";
 
 
 
@@ -17,7 +18,7 @@ const App = () => {
             <Route path={"/cart"} element={<Cart />} />
             <Route path={"/signIn"} element={<SignIn />} />
             <Route path={"/createAccount"} element={<CreateAccount />} />
-            <Route path={"/"} element={<CreateAccount />} />
+            <Route path={"/contactUs"} element={<ContactUs />} />
         </Routes>
     )
 }

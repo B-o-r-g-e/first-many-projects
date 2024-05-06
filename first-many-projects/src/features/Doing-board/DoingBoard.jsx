@@ -10,7 +10,7 @@ const DoingBoard = () => (
                     Yourself is Difficult</h1>
                 <p>Crush your social goals.Again and again</p>
             </div>
-            <Link to="/">
+            <Link to="/ContactUs">
                 <div className="doing-board-right">
                     <button>Contact Us</button>
                 </div>
