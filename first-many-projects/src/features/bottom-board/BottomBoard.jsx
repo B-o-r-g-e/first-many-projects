@@ -42,7 +42,7 @@ const Clock = () => {
     }, []);
 
     return (
-        <p>{time.toLocaleTimeString()}</p>
+        time.toLocaleTimeString()
     );
 };
 

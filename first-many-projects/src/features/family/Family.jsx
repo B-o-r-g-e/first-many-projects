@@ -7,6 +7,14 @@ import dpIcon from '../../assets/dpIcon.png'
 import star from '../../assets/Star.png'
 import {Link} from "react-router-dom";
 
+
+
+const Carousel = () => {
+    const [
+
+        , setCurrentSlideIndex] = React.useState(0);
+}
+
 const Family = () => (
     <div className="family-container">
         <div className="family">
