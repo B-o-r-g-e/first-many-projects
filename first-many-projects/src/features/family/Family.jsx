@@ -11,6 +11,15 @@ import {Link} from "react-router-dom";
 
 const Carousel = () => {
     const [currentSlideIndex, setCurrentSlideIndex] = React.useState(0);
+
+    const previousButton = () => {
+        const newIndex = currentSlideIndex === 0 ? 2 : currentSlideIndex + 1;
+        setCurrentSlideIndex(newIndex)
+    }
+
+    const nextButton = () => {
+
+    }
 }
 
 const Family = () => (
