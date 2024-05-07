@@ -27,6 +27,10 @@ import image11 from "../../assets/Image11.png"
 import image12 from "../../assets/Image12.png"
 import graf from "../../assets/Graf.png"
 
+
+
+
+
 const BottomBoard = () => (
     <div className="BottomBoard-container">
         <div className="BottomBoard">

@@ -49,7 +49,7 @@ const Footer = () => (
                     <tr>
                         <td>Pricing Single</td>
                         <td></td>
-                        <td></td>
+                        <td><a href='#libNav'>Back to Top</a> </td>
                     </tr>
                     </tbody>
                 </table>

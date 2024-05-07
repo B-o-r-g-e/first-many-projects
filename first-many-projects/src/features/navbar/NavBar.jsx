@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 
 const NavBar = () => (
-    <nav className="navbar navbar-container common">
+    <nav className="navbar navbar-container common" id='libNav'>
         <Link to="/">
             <div className="library-logo gpt3__navbar-links__logo">
                 <img src={logo} alt="logo"/>
