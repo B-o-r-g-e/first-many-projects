@@ -10,9 +10,7 @@ import {Link} from "react-router-dom";
 
 
 const Carousel = () => {
-    const [
-
-        , setCurrentSlideIndex] = React.useState(0);
+    const [currentSlideIndex, setCurrentSlideIndex] = React.useState(0);
 }
 
 const Family = () => (
