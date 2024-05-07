@@ -9,7 +9,7 @@ import {Link} from "react-router-dom";
 
 
 
-const Carousel = () => {
+// const Carousel = () => {
     const [currentSlideIndex, setCurrentSlideIndex] = React.useState(0);
 
     const previousButton = () => {
@@ -18,10 +18,10 @@ const Carousel = () => {
     }
 
     const nextButton = () => {
-        const newIndex = currentSlideIndex === 0 ? 2 : currentSlideIndex + 1;
+        const newIndex = currentSlideIndex === 2 ? 0 : currentSlideIndex + 1;
         setCurrentSlideIndex(newIndex)
     }
-}
+// }
 
 const Family = () => (
     <div className="family-container">
@@ -29,32 +29,80 @@ const Family = () => (
             <div className="family-top">
                 <h1>Our Happy Family</h1>
                 <div className="modal">
-                    <button className="modal-prev">
+                    <button onClick={previousButton} className="modal-prev">
                         <img src={chevronLeft} alt="modal-prev"/>
                     </button>
-                    <div className="modal-mid">
-                        <div className="dp-container">
-                            <img className={'dp'} src={dp} alt=""/>
-                            <img className={'dp-icon'} src={dpIcon} alt=""/>
+                    <div className="modal-content">
+                        <div className="{`modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}">
+                            <div className="dp-container">
+                                <img className={'dp'} src={dp} alt=""/>
+                                <img className={'dp-icon'} src={dpIcon} alt=""/>
+                            </div>
+
+                            <div className="name-container">
+                                <div className="name"> Mick G.,</div>
+                                <div className="position"> Head of Sales and Marketing</div>
+                            </div>
+
+                            <img src={star} alt="" className="rating"/>
+
+                            <div className="details">
+                                Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the when an unknown printer
+                                took a galley of type and scrambled it to make a
+                                type specimen book.
+                            </div>
                         </div>
+                        <div className="{`modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}">
+                            <div className="dp-container">
+                                <img className={'dp'} src={dp} alt=""/>
+                                <img className={'dp-icon'} src={dpIcon} alt=""/>
+                            </div>
 
-                        <div className="name-container">
-                            <div className="name"> Mick G.,</div>
-                            <div className="position"> Head of Sales and Marketing</div>
+                            <div className="name-container">
+                                <div className="name"> Mick G.,</div>
+                                <div className="position"> Head of Sales and Marketing</div>
+                            </div>
+
+                            <img src={star} alt="" className="rating"/>
+
+                            <div className="details">
+                                Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the when an unknown printer
+                                took a galley of type and scrambled it to make a
+                                type specimen book.
+                            </div>
                         </div>
+                        <div className="{`modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}">
+                            <div className="dp-container">
+                                <img className={'dp'} src={dp} alt=""/>
+                                <img className={'dp-icon'} src={dpIcon} alt=""/>
+                            </div>
 
-                        <img src={star} alt="" className="rating"/>
+                            <div className="name-container">
+                                <div className="name"> Mick G.,</div>
+                                <div className="position"> Head of Sales and Marketing</div>
+                            </div>
 
-                        <div className="details">
-                            Lorem Ipsum is simply dummy text
-                            of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard
-                            dummy text ever since the when an unknown printer
-                            took a galley of type and scrambled it to make a
-                            type specimen book.
+                            <img src={star} alt="" className="rating"/>
+
+                            <div className="details">
+                                Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the when an unknown printer
+                                took a galley of type and scrambled it to make a
+                                type specimen book.
+                            </div>
                         </div>
                     </div>
-                    <img src={chevronRight} alt="" className="next"/>
+                    <button onClick={nextButton} className="modal-prev">
+                        <img src={chevronRight} alt="" className="next"/>
+                    </button>
                 </div>
             </div>
 
