@@ -12,14 +12,14 @@ const Family = () => {
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
     const previousButton = () => {
-        const newIndex = currentSlideIndex === 0 ? 2 : currentSlideIndex + 1;
+        const newIndex = currentSlideIndex === 0 ? 2 : currentSlideIndex - 1;
         setCurrentSlideIndex(newIndex)
-    }
+    };
 
     const nextButton = () => {
         const newIndex = currentSlideIndex === 2 ? 0 : currentSlideIndex + 1;
         setCurrentSlideIndex(newIndex)
-    }
+    };
 
 
 
@@ -34,7 +34,7 @@ const Family = () => {
                             <img src={chevronLeft} alt="modal-prev"/>
                         </button>
                         <div className="modal-content">
-                            <div className={`'modal-mid' ${currentSlideIndex === 0 ? 'active' : ''}`}>
+                            <div className={`slide modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}>
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
@@ -56,7 +56,7 @@ const Family = () => {
                                     type specimen book.
                                 </div>
                             </div>
-                            <div className={`modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}>
+                            <div className={`slide modal-mid ${currentSlideIndex === 1 ? 'active' : ''}`}>
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
@@ -64,7 +64,7 @@ const Family = () => {
 
                                 <div className="name-container">
                                     <div className="name"> Mick G.,</div>
-                                    <div className="position"> Head of Sales and Marketing</div>
+                                    <div className="position"> butt of Sales and Marketing</div>
                                 </div>
 
                                 <img src={star} alt="" className="rating"/>
@@ -78,7 +78,7 @@ const Family = () => {
                                     type specimen book.
                                 </div>
                             </div>
-                            <div className={`modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}>
+                            <div className={`slide modal-mid ${currentSlideIndex === 2 ? 'active' : ''}`}>
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
@@ -86,7 +86,7 @@ const Family = () => {
 
                                 <div className="name-container">
                                     <div className="name"> Mick G.,</div>
-                                    <div className="position"> Head of Sales and Marketing</div>
+                                    <div className="position"> tail of Sales and Marketing</div>
                                 </div>
 
                                 <img src={star} alt="" className="rating"/>
