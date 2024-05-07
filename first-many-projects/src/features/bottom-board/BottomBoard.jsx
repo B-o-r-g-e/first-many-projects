@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './bottom-board.css'
 import logo from "../../assets/Logo1.png"
 import facebook from "../../assets/Fb.png"
@@ -29,7 +29,22 @@ import graf from "../../assets/Graf.png"
 
 
 
+const Clock = () => {
+    const [time, setTime] = useState(new Date());
 
+    useEffect(() => {
+        const intervalID = setInterval(() => {
+            setTime(new Date()); // Update time state with the current date/time
+        }, 1000);
+
+        // Cleanup: clear the interval on component unmount
+        return () => clearInterval(intervalID);
+    }, []);
+
+    return (
+        <p>{time.toLocaleTimeString()}</p>
+    );
+};
 
 const BottomBoard = () => (
     <div className="BottomBoard-container">
@@ -82,7 +97,7 @@ const BottomBoard = () => (
                     <p className="time">5:00AM</p>
                     <div className="timer">
                         <img src={timer} alt="timer"/>
-                        10:00AM
+                        <Clock />
                     </div>
                     <img className={'image1'} src={image1} alt="image"/>
                 </div>
