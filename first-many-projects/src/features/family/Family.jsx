@@ -18,7 +18,8 @@ const Carousel = () => {
     }
 
     const nextButton = () => {
-
+        const newIndex = currentSlideIndex === 0 ? 2 : currentSlideIndex + 1;
+        setCurrentSlideIndex(newIndex)
     }
 }
 
