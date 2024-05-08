@@ -34,7 +34,10 @@ const Family = () => {
                             <img src={chevronLeft} alt="modal-prev"/>
                         </button>
                         <div className="modal-content">
-                            <div className={`slide modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}>
+                            <div
+                                key={1}
+                                className={`slide modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}
+                            >
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
@@ -56,7 +59,7 @@ const Family = () => {
                                     type specimen book.
                                 </div>
                             </div>
-                            <div className={`slide modal-mid ${currentSlideIndex === 1 ? 'active' : ''}`}>
+                            <div key={2} className={`slide modal-mid ${currentSlideIndex === 1 ? 'active' : ''}`}>
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
@@ -78,7 +81,7 @@ const Family = () => {
                                     type specimen book.
                                 </div>
                             </div>
-                            <div className={`slide modal-mid ${currentSlideIndex === 2 ? 'active' : ''}`}>
+                            <div key={3} className={`slide modal-mid ${currentSlideIndex === 2 ? 'active' : ''}`}>
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
