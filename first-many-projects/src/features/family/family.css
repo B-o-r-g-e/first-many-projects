@@ -69,64 +69,6 @@
     /*border: 1px solid red;*/
 }
 
-.modal-mid {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    /*border: 1px solid red;*/
-}
-
-.slide {
-    /*flex: 0 0 100%;*/
-    transition: transform 0.8s ease;
-
-}
-
-/*.slide.active {*/
-/*    transform: translateX(0);*/
-/*}*/
-
-.dp-container {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.dp {
-    width: 7rem;
-}
-
-.dp-icon {
-    width: 2.5rem;
-    position: absolute;
-    bottom: -10px;
-    left: -15px;
-}
-
-.name-container {
-    display: flex;
-}
-
-.name {
-    font-weight: 800;
-}
-
-.rating {
-    width: 7rem;
-}
-
-.details {
-    font-size: 0.9rem;
-    width: 30rem;
-    text-align: center;
-    margin-top: 10px;
-    color: #afafaf;
-}
-
 .new-line {
     border: 1px #424242 solid;
 }

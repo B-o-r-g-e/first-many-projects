@@ -2,9 +2,8 @@ import React, {useEffect, useState} from 'react';
 import './family.css'
 import chevronLeft from '../../assets/chevron-left.png'
 import dp from '../../assets/dp.png'
-import dpIcon from '../../assets/dpIcon.png'
-import star from '../../assets/Star.png'
 import {Link} from "react-router-dom";
+import Personnel from "./pesonnel/Personnel.jsx";
 
 
 const Family = () => {
@@ -58,72 +57,15 @@ const Family = () => {
                             <img src={chevronLeft} alt="modal-prev"/>
                         </button>
                         <div className="modal-content">
-                            <div className={`slide modal-mid`}>
-                                <div className="dp-container">
-                                    <img className={'dp'} src={dp} alt=""/>
-                                    <img className={'dp-icon'} src={dpIcon} alt=""/>
-                                </div>
-
-                                <div className="name-container">
-                                    <div className="name"> Mick G.,</div>
-                                    <div className="position"> Head of Sales and Marketing</div>
-                                </div>
-
-                                <img src={star} alt="" className="rating"/>
-
-                                <div className="details">
-                                    Lorem Ipsum is simply dummy text
-                                    of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard
-                                    dummy text ever since the when an unknown printer
-                                    took a galley of type and scrambled it to make a
-                                    type specimen book.
-                                </div>
-                            </div>
-                            <div className={`slide modal-mid`}>
-                                <div className="dp-container">
-                                    <img className={'dp'} src={dp} alt=""/>
-                                    <img className={'dp-icon'} src={dpIcon} alt=""/>
-                                </div>
-
-                                <div className="name-container">
-                                    <div className="name"> Mick G.,</div>
-                                    <div className="position"> butt of Sales and Marketing</div>
-                                </div>
-
-                                <img src={star} alt="" className="rating"/>
-
-                                <div className="details">
-                                    Lorem Ipsum is simply dummy text
-                                    of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard
-                                    dummy text ever since the when an unknown printer
-                                    took a galley of type and scrambled it to make a
-                                    type specimen book.
-                                </div>
-                            </div>
-                            <div className={`slide modal-mid`}>
-                                <div className="dp-container">
-                                    <img className={'dp'} src={dp} alt=""/>
-                                    <img className={'dp-icon'} src={dpIcon} alt=""/>
-                                </div>
-
-                                <div className="name-container">
-                                    <div className="name"> Mick G.,</div>
-                                    <div className="position"> tail of Sales and Marketing</div>
-                                </div>
-
-                                <img src={star} alt="" className="rating"/>
-
-                                <div className="details">
-                                    Lorem Ipsum is simply dummy text
-                                    of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard
-                                    dummy text ever since the when an unknown printer
-                                    took a galley of type and scrambled it to make a
-                                    type specimen book.
-                                </div>
-                            </div>
+                            <Personnel position={'Managing Director'} name={'James Smith'} image={dp} />
+                            <Personnel position={'Managing Director'} name={'John Johnson'} image={dp} />
+                            <Personnel position={'Managing Director'} name={'Patricia Brown'} image={dp} />
+                            <Personnel position={'Managing Director'} name={'Jennifer Davis'} image={dp} />
+                            <Personnel position={'Managing Director'} name={'Linda Wilson'} image={dp} />
+                            <Personnel position={'Managing Director'} name={'Elizabeth Moore'} image={dp} />
+                            <Personnel position={'Managing Director'} name={'Susan Anderson'} image={dp} />
+                            <Personnel position={'Managing Director'} name={'Jessica Taylor'} image={dp} />
+                            <Personnel position={'Managing Director'} name={'Sarah Martinez'} image={dp} />
                         </div>
                         <button onClick={nextBtn} className="modal-prev next">
                             <img src={chevronLeft} alt="" className="next"/>
