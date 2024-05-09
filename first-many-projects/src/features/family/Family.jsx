@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './family.css'
 import chevronLeft from '../../assets/chevron-left.png'
 import chevronRight from '../../assets/chevron-right.png'
@@ -9,17 +9,42 @@ import {Link} from "react-router-dom";
 
 
 const Family = () => {
-    const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+    const [counter, setCounter] = useState(0);
+    const [slides, setSlides] = useState([]);
 
-    const previousButton = () => {
-        const newIndex = currentSlideIndex === 0 ? 2 : currentSlideIndex - 1;
-        setCurrentSlideIndex(newIndex)
+    // Fetch and set slides when component mounts
+    useEffect(() => {
+        const slides = document.querySelectorAll('.slide');
+        setSlides(slides);
+    }, []);
+
+    const prevBtn = () => {
+        setCounter(prevCounter => prevCounter - 1);
     };
 
-    const nextButton = () => {
-        const newIndex = currentSlideIndex === 2 ? 0 : currentSlideIndex + 1;
-        setCurrentSlideIndex(newIndex)
+    const nextBtn = () => {
+        setCounter(prevCounter => prevCounter + 1);
     };
+
+    useEffect(() => {
+        // Hide/show previous button based on counter
+        const prevButton = document.querySelector('.previous');
+        if (prevButton) {
+            counter > 0 ? prevButton.style.visibility = 'visible' : prevButton.style.visibility = 'hidden';
+        }
+
+        // Hide/show next button based on counter
+        const nextButton = document.querySelector('.next');
+        if (nextButton) {
+            counter < slides.length - 1 ? nextButton.style.visibility = 'visible' : nextButton.style.visibility = 'hidden';
+        }
+
+        // Slide animation using translateX
+        slides.forEach((slide) => {
+            slide.style.transform = `translateX(-${counter * 100}%)`;
+        });
+
+    }, [counter, slides]);
 
 
 
@@ -30,14 +55,11 @@ const Family = () => {
                 <div className="family-top">
                     <h1>Our Happy Family</h1>
                     <div className="modal">
-                        <button onClick={previousButton} className="modal-prev">
+                        <button onClick={prevBtn} className="modal-prev previous">
                             <img src={chevronLeft} alt="modal-prev"/>
                         </button>
                         <div className="modal-content">
-                            <div
-                                key={1}
-                                className={`slide modal-mid ${currentSlideIndex === 0 ? 'active' : ''}`}
-                            >
+                            <div className={`slide modal-mid`}>
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
@@ -59,7 +81,7 @@ const Family = () => {
                                     type specimen book.
                                 </div>
                             </div>
-                            <div key={2} className={`slide modal-mid ${currentSlideIndex === 1 ? 'active' : ''}`}>
+                            <div className={`slide modal-mid`}>
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
@@ -81,7 +103,7 @@ const Family = () => {
                                     type specimen book.
                                 </div>
                             </div>
-                            <div key={3} className={`slide modal-mid ${currentSlideIndex === 2 ? 'active' : ''}`}>
+                            <div className={`slide modal-mid`}>
                                 <div className="dp-container">
                                     <img className={'dp'} src={dp} alt=""/>
                                     <img className={'dp-icon'} src={dpIcon} alt=""/>
@@ -104,7 +126,7 @@ const Family = () => {
                                 </div>
                             </div>
                         </div>
-                        <button onClick={nextButton} className="modal-prev">
+                        <button onClick={nextBtn} className="modal-prev next">
                             <img src={chevronRight} alt="" className="next"/>
                         </button>
                     </div>
