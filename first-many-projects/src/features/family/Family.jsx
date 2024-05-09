@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './family.css'
 import chevronLeft from '../../assets/chevron-left.png'
-import chevronRight from '../../assets/chevron-right.png'
 import dp from '../../assets/dp.png'
 import dpIcon from '../../assets/dpIcon.png'
 import star from '../../assets/Star.png'
