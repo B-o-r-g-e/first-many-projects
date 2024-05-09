@@ -127,7 +127,7 @@ const Family = () => {
                             </div>
                         </div>
                         <button onClick={nextBtn} className="modal-prev next">
-                            <img src={chevronRight} alt="" className="next"/>
+                            <img src={chevronLeft} alt="" className="next"/>
                         </button>
                     </div>
                 </div>
