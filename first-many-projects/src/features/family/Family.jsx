@@ -2,6 +2,15 @@ import React, {useEffect, useState} from 'react';
 import './family.css'
 import chevronLeft from '../../assets/chevron-left.png'
 import dp from '../../assets/dp.png'
+import john from '../../assets/John.jpg'
+import Mary from '../../assets/mary.jpg'
+import Patricia from '../../assets/Patricia.jpg'
+import Jennifer from '../../assets/Jennifer.jpg'
+import Linda from '../../assets/Linda.jpg'
+import Elizabeth from '../../assets/Elizabeth.jpg'
+import Susan  from '../../assets/Susan.jpg'
+import Jessica from '../../assets/Jessica.jpg'
+import Sarah from '../../assets/Sarah.jpg'
 import {Link} from "react-router-dom";
 import Personnel from "./pesonnel/Personnel.jsx";
 
@@ -58,14 +67,15 @@ const Family = () => {
                         </button>
                         <div className="modal-content">
                             <Personnel position={'Managing Director'} name={'James Smith'} image={dp} />
-                            <Personnel position={'Managing Director'} name={'John Johnson'} image={dp} />
-                            <Personnel position={'Managing Director'} name={'Patricia Brown'} image={dp} />
-                            <Personnel position={'Managing Director'} name={'Jennifer Davis'} image={dp} />
-                            <Personnel position={'Managing Director'} name={'Linda Wilson'} image={dp} />
-                            <Personnel position={'Managing Director'} name={'Elizabeth Moore'} image={dp} />
-                            <Personnel position={'Managing Director'} name={'Susan Anderson'} image={dp} />
-                            <Personnel position={'Managing Director'} name={'Jessica Taylor'} image={dp} />
-                            <Personnel position={'Managing Director'} name={'Sarah Martinez'} image={dp} />
+                            <Personnel position={'Worker'} name={'John Johnson'} image={john} />
+                            <Personnel position={'Worker'} name={'Patricia Brown'} image={Patricia} />
+                            <Personnel position={'Worker'} name={'Jennifer Davis'} image={Jennifer} />
+                            <Personnel position={'Worker'} name={'Linda Wilson'} image={Linda} />
+                            <Personnel position={'Worker'} name={'Elizabeth Moore'} image={Elizabeth} />
+                            <Personnel position={'Worker'} name={'Susan Anderson'} image={Susan} />
+                            <Personnel position={'Worker'} name={'Jessica Taylor'} image={Jessica} />
+                            <Personnel position={'Worker'} name={'Sarah Martinez'} image={Sarah} />
+                            <Personnel position={'Worker'} name={'Mary Johnson'} image={Mary} />
                         </div>
                         <button onClick={nextBtn} className="modal-prev next">
                             <img src={chevronLeft} alt="" className="next"/>
