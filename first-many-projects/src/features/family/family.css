@@ -53,6 +53,10 @@
     transform: scaleX(-1);
 }
 
+.modal button:hover {
+    background-color: #313030;
+}
+
 .modal-content {
     display: flex;
     overflow: hidden;
