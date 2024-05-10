@@ -66,16 +66,16 @@ const Family = () => {
                             <img src={chevronLeft} alt="modal-prev"/>
                         </button>
                         <div className="modal-content">
-                            <Personnel position={'Managing Director'} name={'James Smith'} image={dp} />
-                            <Personnel position={'Worker'} name={'John Johnson'} image={john} />
-                            <Personnel position={'Worker'} name={'Patricia Brown'} image={Patricia} />
-                            <Personnel position={'Worker'} name={'Jennifer Davis'} image={Jennifer} />
-                            <Personnel position={'Worker'} name={'Linda Wilson'} image={Linda} />
-                            <Personnel position={'Worker'} name={'Elizabeth Moore'} image={Elizabeth} />
-                            <Personnel position={'Worker'} name={'Susan Anderson'} image={Susan} />
-                            <Personnel position={'Worker'} name={'Jessica Taylor'} image={Jessica} />
-                            <Personnel position={'Worker'} name={'Sarah Martinez'} image={Sarah} />
-                            <Personnel position={'Worker'} name={'Mary Johnson'} image={Mary} />
+                            <Personnel position={'Managing Director'} name={'James Smith'} image={dp} desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius libero ac diam lacinia, non cursus ipsum tristique. Fusce fringilla justo vel sapien ultrices, in malesuada nulla tincidunt. Quisque congue sapien vel tellus fermentum, quis ultricies leo dignissim. Integer ac eros at velit gravida rhoncus vel ac urna.'} />
+                            <Personnel position={'Worker'} name={'John Johnson'} image={john} desc={'Suspendisse potenti. Sed euismod lectus non lorem tincidunt, id malesuada erat rutrum. Curabitur id odio nec felis fringilla consequat. Nullam id leo non justo luctus fermentum. Vivamus eu nunc ac ligula pharetra laoreet. Aliquam erat volutpat.'} />
+                            <Personnel position={'Worker'} name={'Patricia Brown'} image={Patricia} desc={'Nullam interdum libero at nisi auctor, at lacinia mi tristique. Vivamus dictum bibendum erat, in malesuada leo congue eget. Aliquam tempor tellus sed turpis lacinia dictum. Nunc eleifend, eros non congue molestie, erat dui bibendum turpis, non pellentesque turpis felis eu elit.'} />
+                            <Personnel position={'Worker'} name={'Jennifer Davis'} image={Jennifer} desc={'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam venenatis tellus vel ultrices faucibus. Sed auctor magna eget magna auctor tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris suscipit elit velit.'} />
+                            <Personnel position={'Worker'} name={'Linda Wilson'} image={Linda} desc={'Maecenas molestie libero at erat consequat tincidunt. Cras interdum ante vitae nisl auctor, sed varius libero vulputate. Nulla tincidunt justo in tortor pretium, eget ultrices nulla posuere. Phasellus faucibus erat nec justo gravida, vitae lacinia velit varius. Aenean posuere risus nec libero ultrices, id consequat eros auctor.'} />
+                            <Personnel position={'Worker'} name={'Elizabeth Moore'} image={Elizabeth} desc={'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut lacinia euismod justo, eu tristique nisl bibendum ut. Maecenas vel nisi in risus dignissim pulvinar non et justo. Fusce nec tellus nec justo auctor egestas. Ut ac nisi nec risus consequat commodo.'} />
+                            <Personnel position={'Worker'} name={'Susan Anderson'} image={Susan} desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius libero ac diam lacinia, non cursus ipsum tristique. Fusce fringilla justo vel sapien ultrices, in malesuada nulla tincidunt. Quisque congue sapien vel tellus fermentum, quis ultricies leo dignissim.'} />
+                            <Personnel position={'Worker'} name={'Jessica Taylor'} image={Jessica} desc={'Suspendisse potenti. Sed euismod lectus non lorem tincidunt, id malesuada erat rutrum. Curabitur id odio nec felis fringilla consequat. Nullam id leo non justo luctus fermentum. Vivamus eu nunc ac ligula pharetra laoreet.'} />
+                            <Personnel position={'Worker'} name={'Sarah Martinez'} image={Sarah} desc={'Maecenas molestie libero at erat consequat tincidunt. Cras interdum ante vitae nisl auctor, sed varius libero vulputate. Nulla tincidunt justo in tortor pretium, eget ultrices nulla posuere. Phasellus faucibus erat nec justo gravida, vitae lacinia velit varius.'} />
+                            <Personnel position={'Worker'} name={'Mary Johnson'} image={Mary} desc={'Mauris suscipit elit velit, nec egestas leo blandit at. Vivamus vitae sapien in libero efficitur ullamcorper. Donec eu nibh lacinia, gravida nisl eget, cursus est. Curabitur ultricies scelerisque felis at varius. Duis vestibulum lectus eu magna malesuada ultricies. Suspendisse sit amet ipsum massa.'} />
                         </div>
                         <button onClick={nextBtn} className="modal-prev next">
                             <img src={chevronLeft} alt="" className="next"/>

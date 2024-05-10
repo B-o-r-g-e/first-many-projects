@@ -24,8 +24,20 @@
     margin-bottom: 20px;
 }
 
+.dp-img-container {
+    width: 10vw;
+    border-radius: 100px;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+
 .dp {
-    width: 7rem;
+    /*width: 7rem;*/
+    height: 8rem;
+    border-radius: 50px;
 }
 
 .dp-icon {
