@@ -2,19 +2,19 @@ import React from "react";
 import './DiffBottom.css'
 import logo from '../../../../assets/logo.svg'
 
-const DiffBottom = () => (
+const DiffBottom = ({days, type, price}) => (
     <div className="diff-bottom">
-        <div className="free">Free for 3 months</div>
+        <div className="free">Free for {days} months</div>
         <div className="within">
             <div className="diff-bottom-top">
                 <div className="premium-package">
                     <img src={logo} alt="logo"/>
                     Premium
                 </div>
-                <h1 className={'individual'}>Individual</h1>
+                <h1 className={'individual'}>{type}</h1>
                 <div className="price-container">
-                    <p className='for'>Free for 3 months</p>
-                    <p className='price'>$10.99 / month after</p>
+                    <p className='for'>Free for {days} months</p>
+                    <p className='price'>${price}/ month after</p>
                 </div>
             </div>
 
@@ -29,8 +29,8 @@ const DiffBottom = () => (
                     </ul>
                 </div>
                 <div className="activate-container">
-                    <button>Free for 3 months</button>
-                    <p>Individual plan only. $10.99/month after. Terms and conditions
+                    <button>Free for {days} months</button>
+                    <p>Individual plan only. ${price}/month after. Terms and conditions
                         apply. Open only to users who haven't already tried Premium.
                         Offer ends May 21, 2024.04
                     </p>
