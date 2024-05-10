@@ -61,7 +61,7 @@
 }
 
 .within {
-    padding: 0 15px 60px 15px;
+    padding: 0 15px 50px 15px;
     gap: 20px;
 }
 
@@ -142,4 +142,11 @@ li {
     white-space: nowrap;
     font-size: 14px;
     font-weight: 600;
+}
+
+.activate-container p {
+    color: #A4A5A5;
+    font-size: 10px;
+    width: 270px;
+    text-align: center;
 }
