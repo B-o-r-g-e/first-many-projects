@@ -1,6 +1,8 @@
 .plans-difference-container {
     display: flex;
+    align-items: center;
     width: 80vw;
+    justify-content: center;
     border: 1px solid red;
 }
 
@@ -22,4 +24,15 @@
     font-size: 25px;
     width: 45vw;
     text-align: center;
+}
+
+.diff-bottom-container {
+    display: flex;
+}
+
+.diff-bottom {
+    display: flex;
+    flex-direction: column;
+    width:30vw;
+    border: 1px solid red;
 }
