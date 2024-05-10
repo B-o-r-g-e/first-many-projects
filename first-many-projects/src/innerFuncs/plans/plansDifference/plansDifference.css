@@ -40,14 +40,23 @@
     border: 1px solid red;
     position: relative;
     border-radius: 13px;
+    gap: 20px;
 }
 
 .free {
     font-weight: 600;
-    padding: 1px 2px;
+    font-size: 14px;
+    padding: 8px 2px;
     border: 1px solid red;
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
-    
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    background-color: #FCD2D6;
+    color: #0A0909;
+}
+
+.within {
+    padding: 0 15px;
 }
