@@ -70,3 +70,13 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.premium-package {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.premium-package img {
+    width: 60px;
+}
