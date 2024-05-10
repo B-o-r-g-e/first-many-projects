@@ -74,7 +74,8 @@
 .premium-package {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    font-weight: 600;
 }
 
 .premium-package img {
