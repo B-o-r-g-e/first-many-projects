@@ -133,3 +133,9 @@ li {
     align-items: center;
     gap: 20px;
 }
+
+.activate-container button {
+    padding: 10px 35%;
+    border-radius: 50px;
+    border: none;
+}
