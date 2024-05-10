@@ -5,7 +5,7 @@ import ai from '../../../assets/ai.png'
 
 const PlansHeader = () => {
     return (
-        <div className="gpt3__header section__padding" id={'home'}>
+        <div className="gpt3__header section__padding" id={'Explore'}>
             <div className="gpt3__header-content">
                 <h1 className="gradient__text">
                     $0 for 3 months of Premium

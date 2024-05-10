@@ -4,7 +4,7 @@ import DiffBottom from "./diffBottom/DiffBottom.jsx";
 
 const PlansDifference= () => {
     return (
-        <div className="plans-difference-container">
+        <div className="plans-difference-container" id={'pricing'}>
             <div className="plans-difference">
                 <div className="diff-top">
                     <h1>Experience the difference</h1>

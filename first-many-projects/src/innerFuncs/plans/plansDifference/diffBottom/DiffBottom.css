@@ -72,16 +72,16 @@
     display: flex;
 }
 
-ul {
+.criteria ul {
     list-style-type: none;
 }
 
-li::before {
+.criteria li::before {
     content: "\2022";
     padding-right: 6px;
 }
 
-li {
+.criteria li {
     font-size: 14px;
     font-weight: 600;
     display: flex;
