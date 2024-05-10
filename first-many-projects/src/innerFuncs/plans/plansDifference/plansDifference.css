@@ -64,3 +64,9 @@
     padding: 0 15px;
     gap: 20px;
 }
+
+.diff-bottom-top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
