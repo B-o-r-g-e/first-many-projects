@@ -1,3 +1,11 @@
+.plans-difference-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    border: 1px solid red;
+}
+
 .plans-difference {
     color: white;
 }
