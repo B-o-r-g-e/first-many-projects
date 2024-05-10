@@ -100,3 +100,9 @@
     color: #A4A5A5;
     font-size: 13px;
 }
+
+.diff-bottom-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
