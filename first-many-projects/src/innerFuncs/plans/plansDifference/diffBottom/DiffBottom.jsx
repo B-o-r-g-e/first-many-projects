@@ -29,7 +29,7 @@ const DiffBottom = ({days, type, price}) => (
                     </ul>
                 </div>
                 <div className="activate-container">
-                    <button>Free for {days} months</button>
+                    <button>{days}</button>
                     <p>Individual plan only. ${price}/month after. Terms and conditions
                         apply. Open only to users who haven't already tried Premium.
                         Offer ends May 21, 2024.04
