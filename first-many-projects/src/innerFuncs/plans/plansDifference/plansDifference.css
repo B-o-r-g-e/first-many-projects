@@ -10,3 +10,16 @@
     flex-direction: column;
     align-items: center;
 }
+
+.diff-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.diff-top p {
+    font-size: 25px;
+    width: 45vw;
+    text-align: center;
+}
