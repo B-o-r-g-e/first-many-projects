@@ -12,7 +12,6 @@ const Plans = () => {
                 <Navbar/>
                 <PlansHeader/>
             </div>
-            <div className="plans-difference-container">
                 <PlansDifference />
             </div>
         </div>
