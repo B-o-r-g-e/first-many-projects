@@ -20,7 +20,7 @@ const PlansDifference= () => {
                                     <img src={logo} alt="logo"/>
                                     Premium
                                 </div>
-                                <h1>Individual</h1>
+                                <h1 className={'individual'}>Individual</h1>
                                 <div className="price-container">
                                     <h1>Free for 3 months</h1>
                                     <p>$10.99 / month after</p>
