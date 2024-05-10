@@ -3,6 +3,7 @@ import './Plans.css'
 import {Navbar} from "../../Components/index.js";
 // import {Header} from "../../containers/index.js";
 import PlansHeader from "./plansHeader/PlansHeader.jsx";
+import PlansDifference from "./plansDifference/plansDifference.jsx";
 
 const Plans = () => {
     return (
@@ -12,7 +13,7 @@ const Plans = () => {
                 <PlansHeader/>
             </div>
             <div className="plans-difference-container">
-
+                <PlansDifference />
             </div>
         </div>
     )
