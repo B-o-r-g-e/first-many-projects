@@ -22,15 +22,21 @@ const PlansDifference= () => {
                                 </div>
                                 <h1 className={'individual'}>Individual</h1>
                                 <div className="price-container">
-                                    <h1>Free for 3 months</h1>
-                                    <p>$10.99 / month after</p>
+                                    <p className='for'>Free for 3 months</p>
+                                    <p className='price'>$10.99 / month after</p>
                                 </div>
                             </div>
 
                             <div className="horizontal-line new-line"/>
 
                             <div className="diff-bottom-bottom">
-                                <div className="criteria"></div>
+                                <div className="criteria">
+                                    <ul>
+                                        <li>1 Premium account</li>
+                                        <li>Cancel anytime</li>
+                                        <li>15 hours/month of listening time from our audiobooks subscriber catalog</li>
+                                    </ul>
+                                </div>
                                 <div className="activate-container">
                                     <button>Free for 3 months</button>
                                     <p>Individual plan only. $10.99/month after. Terms and conditions

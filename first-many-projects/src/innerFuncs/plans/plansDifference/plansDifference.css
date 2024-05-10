@@ -87,3 +87,16 @@
     font-size: 30px;
     color: #FCD2D6;
 }
+
+.price-container {
+    font-size: 14px;
+}
+
+.for {
+    font-weight: 800;
+}
+
+.price {
+    color: #A4A5A5;
+    font-size: 13px;
+}
