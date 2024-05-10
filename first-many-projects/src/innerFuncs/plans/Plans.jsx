@@ -13,7 +13,6 @@ const Plans = () => {
                 <PlansHeader/>
             </div>
                 <PlansDifference />
-            </div>
         </div>
     )
 }
