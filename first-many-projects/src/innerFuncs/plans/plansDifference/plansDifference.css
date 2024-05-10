@@ -3,7 +3,8 @@
     align-items: center;
     width: 80vw;
     justify-content: center;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    margin-bottom: 200px;
 }
 
 .plans-difference {
@@ -12,6 +13,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    gap: 90px;
 }
 
 .diff-top {
@@ -37,17 +39,18 @@
     display: flex;
     flex-direction: column;
     width:25vw;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     position: relative;
     border-radius: 13px;
     gap: 20px;
+    background-color: #242525;
 }
 
 .free {
     font-weight: 600;
     font-size: 14px;
     padding: 8px 2px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 45%;
     display: flex;
     justify-content: center;
