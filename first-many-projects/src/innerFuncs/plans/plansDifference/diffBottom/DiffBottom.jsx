@@ -2,9 +2,9 @@ import React from "react";
 import './DiffBottom.css'
 import logo from '../../../../assets/logo.svg'
 
-const DiffBottom = ({days, type, price}) => (
+const DiffBottom = ({days, day, type, price}) => (
     <div className="diff-bottom">
-        <div className="free">Free for {days} months</div>
+        <div className="free">Free for {day} months</div>
         <div className="within">
             <div className="diff-bottom-top">
                 <div className="premium-package">
@@ -13,7 +13,7 @@ const DiffBottom = ({days, type, price}) => (
                 </div>
                 <h1 className={'individual'}>{type}</h1>
                 <div className="price-container">
-                    <p className='for'>Free for {days} months</p>
+                    <p className='for'>Free for {day} months</p>
                     <p className='price'>${price}/ month after</p>
                 </div>
             </div>
