@@ -1,5 +1,6 @@
 import React from "react";
 import './plansDifference.css';
+import logo from '../../../assets/logo.svg'
 
 const PlansDifference= () => {
     return (
@@ -16,7 +17,7 @@ const PlansDifference= () => {
                         <div className="within">
                             <div className="diff-bottom-top">
                                 <div className="premium-package">
-                                    <img src="" alt=""/>
+                                    <img src={logo} alt="logo"/>
                                     Premium
                                 </div>
                                 <h1>Individual</h1>
