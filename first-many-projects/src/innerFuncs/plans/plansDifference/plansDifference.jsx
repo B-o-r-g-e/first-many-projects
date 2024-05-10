@@ -117,7 +117,6 @@ const PlansDifference= () => {
                             </div>
                         </div>
                     </div>
-                    \
                 </div>
             </div>
         </div>
