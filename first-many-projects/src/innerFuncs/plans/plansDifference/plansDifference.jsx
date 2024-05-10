@@ -1,6 +1,5 @@
 import React from "react";
 import './plansDifference.css';
-import logo from '../../../assets/logo.svg'
 import DiffBottom from "./diffBottom/DiffBottom.jsx";
 
 const PlansDifference= () => {
