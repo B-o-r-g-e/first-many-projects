@@ -103,6 +103,12 @@ li {
     white-space: nowrap;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.activate-container button:hover {
+    transform: scale(1.1);
 }
 
 .activate-container p {
@@ -118,4 +124,32 @@ li {
 
 .student .individual {
     color: #C4B1D4;
+}
+
+.student .activate-container button {
+    background-color: #C4B1D4;
+}
+
+.duo .free {
+    background-color: #FEC863;
+}
+
+.duo .individual {
+    color: #FEC863;
+}
+
+.duo .activate-container button {
+    background-color: #FEC863;
+}
+
+.fam .free {
+    background-color: #A5BBD1;
+}
+
+.fam .individual {
+    color: #A5BBD1;
+}
+
+.fam .activate-container button {
+    background-color: #A5BBD1;
 }
