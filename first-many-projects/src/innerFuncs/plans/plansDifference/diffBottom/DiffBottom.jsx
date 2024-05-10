@@ -1,6 +1,6 @@
 import React from "react";
 import './DiffBottom.css'
-import logo from '../../../assets/logo.svg'
+import logo from '../../../../assets/logo.svg'
 
 const DiffBottom = () => (
     <div className="diff-bottom">
