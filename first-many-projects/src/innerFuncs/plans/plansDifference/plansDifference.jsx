@@ -24,7 +24,18 @@ const PlansDifference= () => {
                         </div>
                     </div>
 
+                    <div className="horizontal-line new-line"/>
 
+                    <div className="diff-bottom-bottom">
+                        <div className="criteria"></div>
+                        <div className="activate-container">
+                            <button>Free for 3 months</button>
+                            <p>Individual plan only. $10.99/month after. Terms and conditions
+                                apply. Open only to users who haven't already tried Premium.
+                                Offer ends May 21, 2024.04
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
