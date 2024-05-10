@@ -135,7 +135,11 @@ li {
 }
 
 .activate-container button {
-    padding: 10px 35%;
+    padding: 15px 30%;
     border-radius: 50px;
     border: none;
+    background-color: #FCD2D6;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
 }
