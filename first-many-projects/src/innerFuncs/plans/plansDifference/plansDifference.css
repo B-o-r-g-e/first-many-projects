@@ -106,3 +106,23 @@
     flex-direction: column;
     gap: 30px;
 }
+
+.criteria {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "\2022";
+    padding-right: 6px;
+}
+
+li {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 3px;
+}
