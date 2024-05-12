@@ -31,8 +31,16 @@
 
 .diff-bottom-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    overflow: hidden;
+    /*flex-wrap: wrap;*/
+    justify-content: start;
     gap: 30px;
     width: 100%;
+}
+
+.dfc {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 80vw;
 }

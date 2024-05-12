@@ -5,6 +5,7 @@
     border-radius: 13px;
     gap: 20px;
     background-color: #242525;
+    transition: transform 0.8s ease;
 }
 
 .free {
@@ -85,7 +86,7 @@
     font-size: 14px;
     font-weight: 600;
     display: flex;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .activate-container {

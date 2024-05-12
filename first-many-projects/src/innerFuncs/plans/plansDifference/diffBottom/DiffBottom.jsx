@@ -3,7 +3,7 @@ import './DiffBottom.css'
 import logo from '../../../../assets/logo.svg'
 
 const DiffBottom = ({days, day, type, price, change}) => (
-    <div className={`diff-bottom ${change}`}>
+    <div className={`diff-bottom each ${change}`}>
         <div className="free">Free for {day} months</div>
         <div className="within">
             <div className="diff-bottom-top">
