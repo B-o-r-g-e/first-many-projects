@@ -30,7 +30,7 @@ const PlansDifference= () => {
         // Hide/show next button based on counter
         const nextButton = document.querySelector('.next');
         if (nextButton) {
-            counter < slides.length - 1 ? nextButton.style.visibility = 'visible' : nextButton.style.visibility = 'hidden';
+            counter < slides.length - 3 ? nextButton.style.visibility = 'visible' : nextButton.style.visibility = 'hidden';
         }
 
         // Slide animation using translateX
