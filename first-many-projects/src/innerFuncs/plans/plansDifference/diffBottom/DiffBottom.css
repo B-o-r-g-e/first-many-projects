@@ -6,6 +6,7 @@
     gap: 20px;
     background-color: #242525;
     transition: transform 0.8s ease;
+    /*flex: 0 0 100%;*/
 }
 
 .free {
