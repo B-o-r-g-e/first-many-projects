@@ -2,6 +2,7 @@ import React from "react";
 import './PlansHeader.css';
 import people from '../../../assets/people.png'
 import ai from '../../../assets/ai.png'
+import {Link} from "react-router-dom";
 
 const PlansHeader = () => {
     return (
@@ -18,8 +19,10 @@ const PlansHeader = () => {
                     turpis felis eu elit. Integer nec efficitur libero.
                 </p>
                 <div className="plansHeader-buttons">
-                    <button className={'free-months'} type={"button"}>Try free for 3 months</button>
-                    <button className={'view-plans'} type={"button"}>View all plans</button>
+                    <Link to={"/CreateAccount"}>
+                        <button className={'free-months'} type={"button"}>Try free for 3 months</button>
+                    </Link>
+                    <button className={'view-plans'} type={"button"}><a href="#pricing">View all plans</a></button>
                 </div>
 
                 <div className="gpt3__header-content_people">
