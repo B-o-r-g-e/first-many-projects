@@ -28,3 +28,16 @@
     display: flex;
     gap: 5px;
 }
+
+.newsletter-register input {
+    border: none;
+    padding: 13px 15px 13px 10px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background-color: #929191;
+}
+
+.newsletter-register input::placeholder {
+    color: white;
+}
