@@ -1,5 +1,10 @@
 .plans-footer-container {
     display: flex;
+    justify-content: center;
     width: 100vw;
 }
 
+.plans-footer {
+    display: flex;
+    justify-content: center;
+}
