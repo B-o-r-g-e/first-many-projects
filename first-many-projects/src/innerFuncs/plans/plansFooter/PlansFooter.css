@@ -41,3 +41,10 @@
 .newsletter-register input::placeholder {
     color: white;
 }
+
+.newsletter-register button {
+    background-color: #A02B3C;
+    border: none;
+    padding: 10px;
+    color: white;
+}
