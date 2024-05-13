@@ -12,3 +12,14 @@
     justify-content: space-between;
     width: 80%;
 }
+
+.plans-footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.plans-footer-left p {
+    font-weight: 800;
+    font-size: 13px;
+}
