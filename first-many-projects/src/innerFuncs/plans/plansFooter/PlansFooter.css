@@ -48,3 +48,19 @@
     padding: 10px;
     color: white;
 }
+
+.plans-footer-right {
+    width: 33vw;
+}
+
+.plans-footer-right table {
+    width: 100%;
+}
+
+.plans-footer-right th, td {
+    padding-bottom: 6px;
+}
+
+.plans-footer-right tr, td {
+    font-size: 10px;
+}
