@@ -29,9 +29,14 @@ const SignIn = () => {
                 {
                     values
                         ? <Home />
-                        : <button onClick={handleClick}>
-                        <img src={google} alt="google"/>
-                        Sign-in with Google</button>
+                        : <div className="login">
+                            <h1>Log in to GPT3</h1>
+                            <button onClick={handleClick}>
+                                <img src={google} alt="google"/>
+                                Sign-in with Google
+                            </button>
+                        </div>
+
                 }
             </div>
         </div>
