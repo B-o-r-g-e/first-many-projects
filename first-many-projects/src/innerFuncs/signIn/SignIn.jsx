@@ -3,6 +3,7 @@ import './SignIn.css'
 import {auth, provider} from "./googleSignIn/config.jsx";
 import {signInWithPopup} from "firebase/auth"
 import Home from "../../home/Home.jsx";
+import logo from "../../assets/logo.svg";
 
 const SignIn = () => {
     const [values, setValues] = React.useState('')
@@ -19,6 +20,10 @@ const SignIn = () => {
 
     return (
         <div className="signIn-container">
+            <div className="signin-logo-section">
+                <img src="" alt=""/>
+            </div>
+
             <div className="signIn">
                 {values? <Home /> :
                     <button onClick={handleClick}>Sign-in with Google</button>
