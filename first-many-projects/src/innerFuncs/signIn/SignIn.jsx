@@ -18,11 +18,14 @@ const SignIn = () => {
     }, []);
 
     return (
-        <div className="signIn">
-            {values? <Home /> :
-                <button onClick={handleClick}>Sign-in with Google</button>
-            }
+        <div className="signIn-container">
+            <div className="signIn">
+                {values? <Home /> :
+                    <button onClick={handleClick}>Sign-in with Google</button>
+                }
+            </div>
         </div>
+
 
     )
 }
