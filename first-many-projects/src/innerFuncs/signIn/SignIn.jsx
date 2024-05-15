@@ -4,6 +4,7 @@ import {auth, provider} from "./googleSignIn/config.jsx";
 import {signInWithPopup} from "firebase/auth"
 import Home from "../../home/Home.jsx";
 import logo from "../../assets/logo.svg";
+import google from "../../assets/google.svg";
 
 const SignIn = () => {
     const [values, setValues] = React.useState('')
@@ -21,12 +22,14 @@ const SignIn = () => {
     return (
         <div className="signIn-container">
             <div className="signIn-logo-section">
-                <img src={logo} alt=""/>
+                <img src={logo} alt="logo"/>
             </div>
 
             <div className="signIn">
                 {values? <Home /> :
-                    <button onClick={handleClick}>Sign-in with Google</button>
+                    <button onClick={handleClick}>
+                        <img src={google} alt="google"/>
+                        Sign-in with Google</button>
                 }
             </div>
         </div>
