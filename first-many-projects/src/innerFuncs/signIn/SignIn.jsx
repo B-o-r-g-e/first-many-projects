@@ -26,8 +26,10 @@ const SignIn = () => {
             </div>
 
             <div className="signIn">
-                {values? <Home /> :
-                    <button onClick={handleClick}>
+                {
+                    values
+                        ? <Home />
+                        : <button onClick={handleClick}>
                         <img src={google} alt="google"/>
                         Sign-in with Google</button>
                 }
