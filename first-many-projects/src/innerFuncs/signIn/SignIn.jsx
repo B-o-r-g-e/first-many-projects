@@ -20,7 +20,7 @@ const SignIn = () => {
 
     return (
         <div className="signIn-container">
-            <div className="signin-logo-section">
+            <div className="signIn-logo-section">
                 <img src={logo} alt=""/>
             </div>
 
