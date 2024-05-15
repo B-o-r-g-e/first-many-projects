@@ -41,3 +41,19 @@
     flex-direction: column;
     gap: 40px;
 }
+
+.login h1 {
+    font-weight: 800;
+}
+
+.login button {
+    border: 1px solid white;
+    background-color: #121212;
+    color: white;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    font-weight: bold;
+}

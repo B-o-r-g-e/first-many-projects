@@ -33,7 +33,7 @@ const SignIn = () => {
                             <h1>Log in to GPT3</h1>
                             <button onClick={handleClick}>
                                 <img src={google} alt="google"/>
-                                Sign-in with Google
+                                Continue with Google
                             </button>
                         </div>
 
