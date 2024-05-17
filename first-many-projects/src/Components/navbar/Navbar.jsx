@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
+import logoutIcon from '../../assets/logout.png'; // Renamed to avoid confusion with the function
 import './navbar.css';
 
 const Menu = () => (
@@ -24,6 +25,11 @@ const Navbar = () => {
         }
     }, []);
 
+    const handleLogout = () => {
+        localStorage.removeItem('email');
+        setIsSignedIn(false);
+    };
+
     return (
         <div className="gpt3__navbar">
             <div className="gpt3__navbar-links">
@@ -36,11 +42,16 @@ const Navbar = () => {
             </div>
 
             <div className="gpt3__navbar-sign">
-                {!isSignedIn && (
+                {!isSignedIn ? (
                     <>
                         <p>Sign in</p>
-                        <button type="button">Sign Up</button>
+                        <button className='sign-up' type="button">Sign Up</button>
                     </>
+                ) : (
+                    <button className="logout" onClick={handleLogout}>
+                        <img className='logout-img' src={logoutIcon} alt="logout" />
+                        logout
+                    </button>
                 )}
             </div>
 
@@ -53,11 +64,15 @@ const Navbar = () => {
                     <div className="gpt3__navbar-menu_container scale-up-center">
                         <div className="gpt3__navbar-menu_container-links">
                             <Menu />
-                            {!isSignedIn && (
+                            {!isSignedIn ? (
                                 <div className="gpt3__navbar-menu_container-links-sign">
                                     <p>Sign in</p>
                                     <button type="button">Sign Up</button>
                                 </div>
+                            ) : (
+                                <button className="logout" onClick={handleLogout}>
+                                    <img className='logout-img' src={logoutIcon} alt="logout" />
+                                </button>
                             )}
                         </div>
                     </div>

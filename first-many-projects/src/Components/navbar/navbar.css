@@ -33,6 +33,24 @@
     align-items: center;
 }
 
+.logout {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: black;
+    background: #fff;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout-img {
+    width: 20px;
+}
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
@@ -47,7 +65,7 @@
     cursor: pointer;
 }
 
-.gpt3__navbar-sign button,
+.sign-up,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
