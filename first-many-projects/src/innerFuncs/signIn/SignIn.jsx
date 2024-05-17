@@ -12,6 +12,7 @@ const SignIn = () => {
     const handleClick = async () => {
         try {
             const result = await signInWithPopup(auth, provider);
+            console.log(result)
             const userEmail = result.user.email;
             setEmail(userEmail);
             localStorage.setItem('email', userEmail);
