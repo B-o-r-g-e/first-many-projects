@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/logo.svg'
 import './navbar.css'
@@ -15,6 +15,10 @@ const Menu = () => (
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
+    useEffect(() => {
+        const storedEmail = localStorage.getItem('email');
+        console.log(storedEmail);
+    }, []);
 
     return (
         <div className={'gpt3__navbar'}>
