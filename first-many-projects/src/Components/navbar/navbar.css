@@ -39,13 +39,14 @@
     align-items: center;
     padding: 0.5rem 1rem;
     color: black;
-    background: #fff;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 15px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    background: #FF4820;
+
 }
 
 .logout-img {
