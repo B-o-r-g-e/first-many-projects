@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './SignIn.css';
 import { auth, provider } from './googleSignIn/config.jsx';
 import { signInWithPopup } from 'firebase/auth';
@@ -8,14 +9,16 @@ import google from '../../assets/google.svg';
 
 const SignIn = () => {
     const [email, setEmail] = useState(null);
+    const navigate = useNavigate();
 
     const handleClick = async () => {
         try {
             const result = await signInWithPopup(auth, provider);
-            console.log(result)
+            console.log(result);
             const userEmail = result.user.email;
             setEmail(userEmail);
             localStorage.setItem('email', userEmail);
+            navigate(-1); // Navigate back to the previous page
         } catch (error) {
             console.error('Error during sign-in:', error);
         }

@@ -3,6 +3,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
 import logoutIcon from '../../assets/logout.png'; // Renamed to avoid confusion with the function
 import './navbar.css';
+import {Link} from "react-router-dom";
 
 const Menu = () => (
     <>
@@ -44,7 +45,9 @@ const Navbar = () => {
             <div className="gpt3__navbar-sign">
                 {!isSignedIn ? (
                     <>
-                        <p>Sign in</p>
+                        <Link to={"/SignIn"}>
+                            <button className={'sss'}>Sign in</button>
+                        </Link>
                         <button className='sign-up' type="button">Sign Up</button>
                     </>
                 ) : (
