@@ -3,7 +3,7 @@ import './navbar.css'
 import logo from "../../assets/logo.svg";
 import cart from "../../assets/cart.svg"
 import {Link} from "react-router-dom";
-import handleLogout from '../../Components/navbar/Navbar.jsx'
+import logoutIcon from "../../assets/logout.png";
 
 
 
@@ -17,7 +17,7 @@ const NavBar = () => {
         }
     }, []);
 
-    export const handleLogout = () => {
+    const handleLogout = () => {
         localStorage.removeItem('email');
         setIsSignedIn(false);
     };
@@ -45,11 +45,21 @@ const NavBar = () => {
                         <img src={cart} alt="cart"/>
                     </button>
                 </Link>
-                <Link to="/SignIn">
-                    <div className="sign-container">
-                        <button className="sign">Sign In</button>
-                    </div>
-                </Link>
+                {
+                    !isSignedIn ? (
+                        <Link to="/SignIn">
+                            <div className="sign-container">
+                                <button className="sign">Sign In</button>
+                            </div>
+                        </Link>
+                    ) : (
+                        <button className="logout" onClick={handleLogout}>
+                            <img className='logout-img' src={logoutIcon} alt="logout"/>
+                            logout
+                        </button>
+                    )
+                }
+
             </div>
         </nav>
     )
