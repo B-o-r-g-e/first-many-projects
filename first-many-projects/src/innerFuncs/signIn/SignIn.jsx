@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import './SignIn.css';
 import { auth, provider } from './googleSignIn/config.jsx';
 import { signInWithPopup } from 'firebase/auth';
@@ -38,7 +38,9 @@ const SignIn = () => {
     return (
         <div className="signIn-container">
             <div className="signIn-logo-section">
-                <img src={logo} alt="logo" />
+                <Link to={'/'}>
+                    <img src={logo} alt="logo"/>
+                </Link>
             </div>
             <div className="signIn">
                 <div className="login">

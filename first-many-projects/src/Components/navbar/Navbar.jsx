@@ -26,7 +26,7 @@ const Navbar = () => {
         }
     }, []);
 
-    const handleLogout = () => {
+    export const handleLogout = () => {
         localStorage.removeItem('email');
         setIsSignedIn(false);
     };
