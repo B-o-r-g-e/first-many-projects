@@ -14,6 +14,22 @@ const ContactUs = () => {
                     <p>We are here to listen, advice, and help you achieve
                         your tech dreams. Schedule your call today</p>
                 </div>
+                <div className="contactUs-form">
+                    <div className="contactUs-form-each">
+                        <p>Name</p>
+                        <input type="text" placeholder='Hello...' />
+                    </div>
+
+                    <div className="contactUs-form-each">
+                        <p>Email</p>
+                        <input type="text" placeholder='Where should I reply'/>
+                    </div>
+
+                    <div className="contactUs-form-each">
+                        <p>Message</p>
+                        <input type="text" placeholder='I want a help for...'/>
+                    </div>
+                </div>
             </div>
         </div>
     )
