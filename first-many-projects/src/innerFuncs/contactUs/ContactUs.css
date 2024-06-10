@@ -73,6 +73,15 @@ input[type="email"]:focus,
 textarea:focus {
     border-color: #66afe9;
     outline: none;
+    color: white;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: #888;
+    font-style: italic;
 }
 
 .message input, textarea {
