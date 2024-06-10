@@ -21,10 +21,17 @@
 .contactUs-header {
     display: flex;
     flex-direction: column;
+    gap: 40px;
+    align-items: center;
 }
 
 .contactUs-header h1 {
     width: 50vw;
     font-size: 3em;
     text-align: center;
+}
+
+.contactUs-header p {
+    font-size: 0.7em;
+    width: 40vw;
 }
