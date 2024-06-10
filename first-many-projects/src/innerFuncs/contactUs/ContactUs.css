@@ -43,6 +43,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 27%;
+
+}
+
+.contactUs-form-each {
+    width: 100%;
 }
 
 input[type="text"],
@@ -51,8 +57,17 @@ textarea {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     border: none;
     background-color: #030C18;
     border-bottom: 0.1em solid #6a6a6a;
+}
+
+.message input, textarea {
+    height: 20vh;
+}
+
+.message input::placeholder {
+    position: relative;
+    top: -40px;
 }

@@ -25,7 +25,7 @@ const ContactUs = () => {
                         <input type='text' placeholder='Where should I reply'/>
                     </div>
 
-                    <div className="contactUs-form-each">
+                    <div className="contactUs-form-each message">
                         <p>Message</p>
                         <input type="text" placeholder='I want a help for...'/>
                     </div>
