@@ -17,3 +17,8 @@
 .contactUs-nav {
     width: 100%;
 }
+
+.contactUs header {
+    display: flex;
+    flex-direction: column;
+}
