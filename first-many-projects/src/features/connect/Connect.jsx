@@ -11,7 +11,7 @@ const Connect = () => (
                 <h1>Connect all the social
                     networks you love</h1>
                 <p>We currently support Facebook, Instagram, LinkedIn and Twitter. More to come. Felix is purpose built for ease of use and complete flexability.</p>
-                <Link to='/CreateAccount'>
+                <Link to='/SignIn'>
                     <button>Get Started</button>
                 </Link>
             </div>

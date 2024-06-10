@@ -11,7 +11,7 @@ const Working = () => (
                     We Work For Our <br/> Customers</h1>
                 <p>We currently support Facebook, Instagram,
                     LinkedIn and Twitter. More to come.</p>
-                <Link to='/CreateAccount'>
+                <Link to='/SignIn'>
                     <button>Get Started</button>
                 </Link>
             </div>

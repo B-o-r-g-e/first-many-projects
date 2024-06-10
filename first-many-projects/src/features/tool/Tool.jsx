@@ -21,7 +21,7 @@ const Tool = () => (
                 The Future of Writing Blog Articles
             </div>
         </div>
-        <Link to="/CreateAccount">
+        <Link to="/SignIn">
             <button>Get Started</button>
         </Link>
     </div>

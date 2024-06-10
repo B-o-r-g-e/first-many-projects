@@ -18,7 +18,7 @@ const SimpleContents = ({categories, titles, theIcon}) => {
 
             <div className="simple-container-body-second">
                 <img src={theIcon} alt="icon"/>
-                <Link to="/CreateAccount">
+                <Link to="/SignIn">
                     <button>Get Started</button>
                 </Link>
             </div>

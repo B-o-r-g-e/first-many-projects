@@ -62,7 +62,7 @@ const Footer = () => (
                     <div className="footer-right-left">
                         <div className="popular">Popular</div>
                         <p>Startup  $<span className='startup-count'>25</span></p>
-                        <Link to='/CreateAccount'>
+                        <Link to='/Plans'>
                             <button>Choose Plan</button>
                         </Link>
                     </div>
