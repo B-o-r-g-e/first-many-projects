@@ -51,6 +51,11 @@
     width: 100%;
 }
 
+.contactUs-form-each p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -61,6 +66,13 @@ textarea {
     border: none;
     background-color: #030C18;
     border-bottom: 0.1em solid #6a6a6a;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #66afe9;
+    outline: none;
 }
 
 .message input, textarea {
