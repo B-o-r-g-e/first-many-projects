@@ -18,9 +18,13 @@ const Board = () => {
                 <h1>All In One Social Media Management
                     Solution For Businesses</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <Link to={"/SignIn"}>
-                    <button>Create Free Account</button>
-                </Link>
+                {!isSignedIn
+                    &&
+                    <Link to={"/SignIn"}>
+                        <button>Create Free Account</button>
+                    </Link>
+                }
+
             </div>
         </div>
     )
