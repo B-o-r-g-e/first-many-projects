@@ -17,12 +17,12 @@ const ContactUs = () => {
                 <div className="contactUs-form">
                     <div className="contactUs-form-each">
                         <p>Name</p>
-                        <input type="text" placeholder='Hello...' />
+                        <input type="email" placeholder='Hello...' />
                     </div>
 
                     <div className="contactUs-form-each">
                         <p>Email</p>
-                        <input type="text" placeholder='Where should I reply'/>
+                        <input type='text' placeholder='Where should I reply'/>
                     </div>
 
                     <div className="contactUs-form-each">
