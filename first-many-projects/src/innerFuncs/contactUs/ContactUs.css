@@ -54,4 +54,5 @@ textarea {
     box-sizing: border-box;
     border: none;
     background-color: #030C18;
+    border-bottom: 0.1em solid #6a6a6a;
 }
