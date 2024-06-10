@@ -18,7 +18,12 @@
     width: 100%;
 }
 
-.contactUs header {
+.contactUs-header {
     display: flex;
     flex-direction: column;
+}
+
+.contactUs-header h1 {
+    width: 70vw;
+    font-size: 5em;
 }
