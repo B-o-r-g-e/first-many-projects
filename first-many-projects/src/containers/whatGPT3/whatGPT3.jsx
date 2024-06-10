@@ -3,9 +3,9 @@ import './whatGPT3.css';
 import Feature from "../../Components/feature/Feature.jsx";
 import {Link} from "react-router-dom";
 
-const handleClick = () => {
-    console.log('Link clicked');
-};
+// const handleClick = () => {
+//     console.log('Link clicked');
+// };
 
 const whatGPT3 = () => {
     return (
@@ -17,7 +17,7 @@ const whatGPT3 = () => {
                 <h1 className={'gradient__text'}>
                     The possibilities are beyond your imagination
                 </h1>
-                <Link to="/library"  onClick={handleClick}>
+                <Link to="/library">
                     <p>Explore More Features</p>
                 </Link>
             </div>
