@@ -7,8 +7,7 @@ import logoutIcon from "../../assets/logout.png";
 
 
 
-const
-    NavBar = () => {
+const NavBar = () => {
     const [isSignedIn, setIsSignedIn] = useState(false);
 
     useEffect(() => {
