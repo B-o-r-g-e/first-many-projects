@@ -44,3 +44,14 @@
     flex-direction: column;
     gap: 20px;
 }
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #030C18;
+}
