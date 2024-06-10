@@ -22,7 +22,7 @@
 .contactUs-header {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -39,11 +39,18 @@
     text-align: center;
 }
 
+.contactUs-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+
+}
+
 .contactUs-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 27%;
+    width: 100%;
 
 }
 
